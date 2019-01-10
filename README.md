@@ -1,4 +1,4 @@
-# WIP Repo, once ready to be used, this header will be removed.
+# WIP Repo. Once ready to be used this header will be removed.
 # RFGR Script Loader Wiki
   RFGR Script Loader is a scripting interface for Red Faction Guerrilla Re-mars-tered edition. Using LuaJIT 2.0.5 as the scripting language. This repo is used to provide public information about the project while keeping the source private. 
 
