@@ -1,6 +1,6 @@
 # WIP Repo, once ready to be used, this header will be removed.
 # RFGR Script Loader Wiki
-  This repo is the public site for RFGR Script Loader. Used to provide public access to information about the project while keeping the source private. RFGR Script Loader is a scripting interface for Red Faction Guerrilla Re-mars-tered edition. Using LuaJIT 2.0.5 as the scripting language. 
+  RFGR Script Loader is a scripting interface for Red Faction Guerrilla Re-mars-tered edition. Using LuaJIT 2.0.5 as the scripting language. This repo is used to provide public information about the project while keeping the source private. 
 
 ## Project goal
   Normally, modding RFGR involves editing xtbl files which are simply xml files with a different extension. The problem with this method is that there are many hardcoded values in the xtbl files meaning modders are limited on what they can change. This tool aims to bypass the normal limitations of modding the game by allowing modders to change many hardcoded values and allowing for the power and flexibility which a scripting language allows for.
