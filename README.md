@@ -1,4 +1,5 @@
-# WIP Repo. Once ready to be used this header will be removed.
+Moved repo to gitlab since it makes it simpler to make code private with issues and wikis public. Only need one repo there instead of two. Link: https://gitlab.com/moneyl/RFGR-Script-Loader/wikis/home
+
 # RFGR Script Loader Wiki
   RFGR Script Loader is a scripting interface for Red Faction Guerrilla Re-mars-tered edition. Using LuaJIT 2.0.5 as the scripting language. This repo is used to provide public information about the project while keeping the source private. 
 
