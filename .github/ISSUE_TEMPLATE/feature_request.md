@@ -2,7 +2,7 @@
 name: Feature
 about: Suggest a feature or change for this project.
 title: "[Feature]"
-labels: Feature
+labels: ''
 assignees: ''
 
 ---

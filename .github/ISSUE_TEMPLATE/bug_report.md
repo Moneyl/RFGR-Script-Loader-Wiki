@@ -1,8 +1,8 @@
 ---
 name: Bug report
 about: 'Create a bug report '
-title: ''
-labels: ''
+title: "[Bug]"
+labels: Bug
 assignees: ''
 
 ---
@@ -10,7 +10,7 @@ assignees: ''
 **Describe the bug**
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+**Steps to reproduce**
 Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
@@ -23,7 +23,7 @@ A clear and concise description of what you expected to happen without the bug.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Platform (Steam or GOG)**
+**Platform (Steam, GOG, or both)**
 Which of the two platforms are you playing the game on.
 
 **Additional context**
