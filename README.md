@@ -6,11 +6,6 @@
 
   First though, an interface between the game's structures and the scripts must be created. As of now the project is still very early on and few things are accesible by the scripts. The scripting interface will need to be expanded, and ways to easily control the scripts must be added. Another goal would be to provide debugging tools and GUIs in game, allowing modders to view the state of the game world as it changes and to understand the effects that their scripts are having on that world.
 
-### Libraries used
-[Dear ImGui](https://github.com/ocornut/imgui) - Used for the in game overlay GUIs.
-
-[Sol 3](https://github.com/ThePhD/sol2/tree/sol3) - Used for quick and easy lua binding. Currently a branch of Sol2.
-
 ### Usage
 1) Download the latest release from the [releases](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/releases) page.
 2) Unzip the release and copy the folder it contains into your Red Faction Guerrilla Re-mars-tered folder. In steam you can find that by right clicking the game in your library, clicking properties, the local files tab, and then the "Browse local files" button. Once unpacked, you should see the script loader at "../Red Faction Guerrilla Re-MARS-tered/RFGR Script Loader/RFGR Script Loader.exe".
@@ -27,3 +22,8 @@ Main overlay from version 0.02. Visible here are the infinite jetpack and invuln
 
 ### Why is this closed source?
   One of my primary concerns with this project being open source is that people will use it to cheat in the MP mode of the game. While the MP mode isn't as active as it used to be, I'd still hate for it to be ruined for everyone. There are many checks which will crash the game if the player enters MP mode while the script loader is active. If the source was public then it would be trivial to remove those checks from the code and use it as a cheating tool.
+  
+### Libraries used
+[Dear ImGui](https://github.com/ocornut/imgui) - Used for the in game overlay GUIs.
+
+[Sol 3](https://github.com/ThePhD/sol2/tree/sol3) - Used for quick and easy lua binding. Currently a branch of Sol2.
