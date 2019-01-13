@@ -14,6 +14,9 @@
 5) From here you can use some useful functions such as invulnerability, infinite jetpack, and teleports. This release (0.02) does not feature scripting and was intended to test out the overlay and root out any bugs early.
 6) Once scripting is added, I will expand the [wiki](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/wiki) with some tutorials, examples, and lua function documentation.
 
+### Bugs, features, questions, etc
+See the [issues](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/issues) section and search for an issue which already describes your bug/feature/question. If you can't find it, create a new one.
+
 ### Roadmap
 
 ### Gallery
