@@ -11,7 +11,7 @@
 2) Unzip the release and copy the folder it contains into your Red Faction Guerrilla Re-mars-tered folder. In steam you can find that by right clicking the game in your library, clicking properties, the local files tab, and then the "Browse local files" button. Once unpacked, you should see the script loader at "../Red Faction Guerrilla Re-MARS-tered/RFGR Script Loader/RFGR Script Loader.exe".
 3) Next, run RFGR Script Loader.exe as admin. You may run it while the game is running or while it isn't. If the game isn't running it will autostart it by default. Now, you must wait for 3 beeps to sound off. If you hear them that means it has successfully loaded into RFGR. If you ran it from startup you may need to wait until the main menu for this to occur. 
 4) You can use F1 to toggle the overlay, Numpad 1 to turn the HUD and fog off, and Numpad 2 to turn them on. The "Main Overlay" window won't be usable until you load a save. The first time you open it must be with the game unpaused, but after that it will work in the pause menu. This limitation will be fixed in time. 
-5) From here you can use some useful functions such as invulnerability, infinite jetpack, and teleports. This release (0.02) does not feature scripting and was intended to test out the overlay and root out any bugs early.
+5) From here you can use some useful functions such as invulnerability, infinite jetpack, and teleports. This release (0.0.2) does not feature scripting and was intended to test the overlay and root out any bugs early.
 6) Once scripting is added, I will expand the [wiki](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/wiki) with some tutorials, examples, and lua function documentation.
 
 ### Bugs, features, questions, etc
