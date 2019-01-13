@@ -1,8 +1,8 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: "[Feature Request]"
-labels: Feature Request
+name: Feature
+about: Suggest a feature or change for this project.
+title: "[Feature]"
+labels: Feature
 assignees: ''
 
 ---
