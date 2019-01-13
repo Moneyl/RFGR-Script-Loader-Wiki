@@ -4,7 +4,7 @@
 ### Project goals
   Normally, modding RFGR involves editing xml files included in the game which define things such as AI behavior, the properties of vehicles, weapons, and more. This allows modders to change the game in many ways. Even so, there are many hardcoded values and behaviors that cannot be changed, ultimately limited what modders can do. This tool aims to bypass some of these limitations by allowing modders to change many hardcoded values and giving them access to the power and flexibility which a scripting languages allow for.
 
-  First though, an interface between the game's structures and the scripts must be created. As of now the project is still very early on and few things are accesible by the scripts. The scripting interface will need to be expanded, and ways to easily control the scripts must be added. Another goal would be to provide debugging tools and GUIs in game, allowing modders to view the state of the game world as it changes and to understand the effects that their scripts are having on that world.
+  Before this is possible an interface between the game's structures and the scripts must be created. As of now the project is still very early on and few things are accesible by the scripts. The scripting interface will need to be expanded, and ways to easily control the scripts must be added. Another goal would be to provide debugging tools and GUIs in game, allowing modders to view the state of the game world as it changes and to understand the effects that their scripts are having on that world.
 
 ### Usage
 1) Download the latest release from the [releases](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/releases) page.
