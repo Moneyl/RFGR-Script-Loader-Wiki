@@ -20,5 +20,10 @@
 ![alt text](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/blob/master/Images/0.02%20Main%20Overlay.jpg?raw=true "Main overlay example from 0.02")
 Main overlay from version 0.02. Visible here are the infinite jetpack and invulnerability options. The global explosion strength options, the teleport menu, and finally the prototype player values section.
 
+### Libraries used
+[Dear ImGui](https://github.com/ocornut/imgui) - Used for the in game overlay GUIs.
+
+[Sol 3](https://github.com/ThePhD/sol2/tree/sol3) - Used for quick and easy lua binding. Currently a branch of Sol2.
+
 ### Why is this closed source?
   One of my primary concerns with this project being open source is that people will use it to cheat in the MP mode of the game. While the MP mode isn't as active as it used to be, I'd still hate for it to be ruined for everyone. There are many checks which will crash the game if the player enters MP mode while the script loader is active. If the source was public then it would be trivial to remove those checks from the code and use it as a cheating tool.
