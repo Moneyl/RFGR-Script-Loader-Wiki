@@ -11,7 +11,7 @@ See the [wiki](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/wiki) for info 
 ### Bugs, features, questions, etc
 See the [issues](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/issues) section and search for an issue which already describes your bug/feature/question. If you can't find it, create a new one.
 
-### Roadmap
+### Future updates
 See the [roadmap](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/wiki/Roadmap) on the wiki for a rough plan of future updates, and the [milestones](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/milestones) page for progress on upcoming updates. The milestones are a decent indicator of how close the next update is to release, but keep in mind that some features coming to an update might not have an accompanying issue, or new bugs might be encountered. 
 
 ### Gallery
