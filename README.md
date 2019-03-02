@@ -26,8 +26,8 @@ See the [issues](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/issues) secti
 See the [roadmap](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/wiki/Roadmap) on the wiki for a rough plan of future updates, and the [milestones](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/milestones) page for progress on upcoming updates. The milestones are a decent indicator of how close the next update is to release, but keep in mind that some features coming to an update might not have an accompanying issue, or new bugs might be encountered. 
 
 ## Gallery
-![alt text](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/blob/master/Images/0.02%20Main%20Overlay.jpg?raw=true "Main overlay example from 0.02")
-Main overlay from version 0.02. Visible here are the infinite jetpack and invulnerability options. The global explosion strength options, the teleport menu, and finally the prototype player values section.
+![alt text](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/blob/master/Images/0.2.0%20Overlay1.png "Main overlay example from 0.2.0")
+Main overlay from version 0.2.0. Visible here are the tweaks menu (invulnerability, player speed, etc), teleport menu, lua console, and script editor. As of this release it's not much more than a fancy trainer. But, future releases aim to finally improve scripting. 
 
 ## Why this is closed source
   One of my primary concerns with this project being open source is that people will use it to cheat in the MP mode of the game. While the MP mode isn't as active as it used to be, I'd still hate for it to be ruined for everyone. There are many checks which will crash the game if the player enters MP mode while the script loader is active. If the source was public then it would be trivial to remove those checks from the code and use it as a cheating tool.
