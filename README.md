@@ -1,3 +1,5 @@
+![Discord](https://img.shields.io/discord/254065019807858689.svg?label=Official%20Red%20Faction%20Discord) ![GitHub release](https://img.shields.io/github/release-pre/moneyl/RFGR-Script-Loader-Wiki.svg)
+
 # RFGR Script Loader Wiki
   RFGR Script Loader is a scripting interface for Red Faction Guerrilla Re-mars-tered edition. Using LuaJIT 2.0.5 as the scripting language. This repo is used to provide public information about the project while keeping the source private. 
 
