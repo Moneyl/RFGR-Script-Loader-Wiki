@@ -26,7 +26,7 @@ See the [issues](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/issues) secti
 See the [roadmap](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/wiki/Roadmap) on the wiki for a rough plan of future updates, and the [milestones](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/milestones) page for progress on upcoming updates. The milestones are a decent indicator of how close the next update is to release, but keep in mind that some features coming to an update might not have an accompanying issue, or new bugs might be encountered. 
 
 ## Gallery
-![alt text](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/blob/master/Images/0.2.0/Overlay1.png "Main overlay example from 0.2.0")
+![alt text](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/blob/master/Images/0.2.0%20Overlay1.png "Main overlay example from 0.2.0")
 Main overlay from version 0.2.0. Visible here are the tweaks menu (invulnerability, player speed, etc), teleport menu, lua console, and script editor. As of this release it's not much more than a fancy trainer. But, future releases aim to finally improve scripting. I've tried to fit as many gui elements as possible in this image, however, it normally isn't so cluttered as you can selectively open and close each of these windows.
 
 ## Why this is closed source
