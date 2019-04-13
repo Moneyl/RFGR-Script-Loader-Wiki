@@ -26,13 +26,27 @@ See the [issues](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/issues) secti
 See the [roadmap](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/wiki/Roadmap) on the wiki for a rough plan of future updates, and the [milestones](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/milestones) page for progress on upcoming updates. The milestones are a decent indicator of how close the next update is to release, but keep in mind that some features coming to an update might not have an accompanying issue, or new bugs might be encountered. 
 
 ## Gallery
-![alt text](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/blob/master/Images/0.2.0%20Overlay1.png "Main overlay example from 0.2.0")
+![alt text](https://github.com/Moneyl/RFGR-Script-Loader-Wiki/blob/master/Images/0.2.0/Overlay1.png "Main overlay example from 0.2.0")
 Main overlay from version 0.2.0. Visible here are the tweaks menu (invulnerability, player speed, etc), teleport menu, lua console, and script editor. As of this release it's not much more than a fancy trainer. But, future releases aim to finally improve scripting. I've tried to fit as many gui elements as possible in this image, however, it normally isn't so cluttered as you can selectively open and close each of these windows.
 
 ## Why this is closed source
   One of my primary concerns with this project being open source is that people will use it to cheat in the MP mode of the game. While the MP mode isn't as active as it used to be, I'd still hate for it to be ruined for everyone. There are many checks which will crash the game if the player enters MP mode while the script loader is active. If the source was public then it would be trivial to remove those checks from the code and use it as a cheating tool.
 
 ## Libraries used
-[Dear ImGui](https://github.com/ocornut/imgui) - Used for the in game overlay GUIs.
+[Dear ImGui](https://github.com/ocornut/imgui) - Immediate mode GUI library.
 
-[Sol 3](https://github.com/ThePhD/sol2/tree/sol3) - Used for quick and easy lua binding. Currently a branch of Sol2.
+[IconFontCppHeaders](https://github.com/juliettef/IconFontCppHeaders) - Easy use of FontAwesome and other fonts with Dear ImGui.
+
+[ImGuiColorTextEdit](https://github.com/BalazsJako/ImGuiColorTextEdit) - Text editor for Dear ImGui. Has normal text editor features like undo, redo, copy, paste, etc and syntax highlighting for several languages.
+
+[nlohmann/json](https://github.com/nlohmann/json) - Fast and convenient json library. Supports reading, writing, and many other options.
+
+[Sol 2](https://github.com/ThePhD/sol2/) - Quick and easy lua binding.
+
+[LuaJIT](https://github.com/LuaJIT/LuaJIT) - Version of Lua using a JIT interpreter. Much faster than base lua in many cases.
+
+[Debug-Draw](https://github.com/glampert/debug-draw) - Renderer agnostic, immediate mode rendering libary. Useful for drawing simple shapes in a 3D world like vector arrows and paths.
+
+[Kiero](https://github.com/Rebzzel/kiero) - DirectX hooking library.
+
+[Minhook](https://github.com/TsudaKageyu/minhook) - Function hooking library.
