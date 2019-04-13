@@ -52,4 +52,4 @@ html_theme_path = ["_themes", ]
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-master_doc = "index.rst"
+master_doc = "index"
