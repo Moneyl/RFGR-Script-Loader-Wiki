@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'RSL'
-copyright = '2019, moneyl'
-author = 'moneyl'
+project = 'Re-mars-tered Script Loader'
+copyright = '2019, RSL'
+author = 'RSL'
 
 
 # -- General configuration ---------------------------------------------------
