@@ -3,18 +3,33 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to RSL's documentation!
+Re-mars-tered Script Loader
 ===============================
 
+The Re-mars-tered Script Loader (RSL) adds a lua scripting API to Red Faction Guerrilla Re-mars-tered Edition (RFGR). 
+
+The goal of this is to allow for more creative and dynamic mods through scripting, but also to bypass many of the current limitations of modding the game.
+
+.. important:: thoughtful meow  
+
+.. warning:: apprehensive meow  
+
+.. note:: meow meow  
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Getting Started:
 
+   Installation
+   Usage
+   Changelog
+   Contributing
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Scripting:
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   Scripting/Guides
+   Scripting/Functions
+   Scripting/Types
+   Scripting/API
