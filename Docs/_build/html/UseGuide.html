@@ -1,0 +1,319 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Use Guide &mdash; RSL  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Installation" href="Installation.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> RSL
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Installation.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Use Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#keyboard-shortcuts">Keyboard Shortcuts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#menus">Menus</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#system">System</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#deactivate-script-loader">Deactivate script loader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#reset-core-lua-state">Reset core lua state</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#tweaks">Tweaks</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#general-tweaks">General Tweaks</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#teleport">Teleport</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#logger">Logger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#theme-editor">Theme editor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#camera-settings">Camera settings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#physics-settings">Physics settings</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#scripting">Scripting</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#scripts">Scripts</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#lua-console">Lua console</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#script-editor">Script editor</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#help">Help</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#welcome">Welcome</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#metrics">Metrics</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#about">About</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RSL</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Use Guide</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/UseGuide.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="use-guide">
+<h1>Use Guide<a class="headerlink" href="#use-guide" title="Permalink to this headline">¶</a></h1>
+<p>This guide will provide you with the basic info you’ll need to use the RSL and it’s different GUIs and controls. This guide assumes that you’ve already followed the installation guide and have it working.</p>
+<div class="section" id="keyboard-shortcuts">
+<h2>Keyboard Shortcuts<a class="headerlink" href="#keyboard-shortcuts" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">F1</span></code> - Toggle RSL overlay</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">F2</span></code> - Toggle script editor</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Hold</span> <span class="pre">F3</span></code> - Deactivate RSL</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">~</span> <span class="pre">(Tilde)</span></code> - Toggle lua console</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Numpad</span> <span class="pre">1</span></code> - Toggle game hud</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Numpad</span> <span class="pre">2</span></code> - Toggle fog</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Numpad</span> <span class="pre">3</span></code> - Toggle free cam</p></li>
+</ul>
+</div>
+<div class="section" id="menus">
+<h2>Menus<a class="headerlink" href="#menus" title="Permalink to this headline">¶</a></h2>
+<p>When opening the overlay for the first time you’ll see the Welcome menu which includes buttons for several often used menus, and a list of keyboard shortcuts. These menus and others not listed there can be opened through the menu bar at the top of the screen. Below is a short list of each menu and what they do, sorted by their menu bar category.</p>
+<div class="section" id="system">
+<h3>System<a class="headerlink" href="#system" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="deactivate-script-loader">
+<h4>Deactivate script loader<a class="headerlink" href="#deactivate-script-loader" title="Permalink to this headline">¶</a></h4>
+<p>Deactivates the script loader and any running scripts. Can also be accomplished by holding F3. Main use is to re-inject the script loader to attempt to fix a bug.</p>
+</div>
+<div class="section" id="reset-core-lua-state">
+<h4>Reset core lua state<a class="headerlink" href="#reset-core-lua-state" title="Permalink to this headline">¶</a></h4>
+<p>Disables all scripts and fully resets the script loader lua state. This means that any scripts, event, variables, etc, will be completely reset as if the script loader was just started. Also reloads the core library in the Core folder.</p>
+</div>
+</div>
+<div class="section" id="tweaks">
+<h3>Tweaks<a class="headerlink" href="#tweaks" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="general-tweaks">
+<h4>General Tweaks<a class="headerlink" href="#general-tweaks" title="Permalink to this headline">¶</a></h4>
+<p>Contains a large amount of useful tweaks for the player such as invincibility, infinite jetpack, ignored by ai, no ragdoll, custom move speed, custom jump height, custom explosion spawning, and more.</p>
+</div>
+<div class="section" id="teleport">
+<h4>Teleport<a class="headerlink" href="#teleport" title="Permalink to this headline">¶</a></h4>
+<p>Has a preset list of teleport locations and lets you create your own to teleport the player anywhere on the map. Preset locations include places like  the tutorial area, each safehouse, and mount vogel.</p>
+</div>
+<div class="section" id="logger">
+<h4>Logger<a class="headerlink" href="#logger" title="Permalink to this headline">¶</a></h4>
+<p>Lists logging system output. Has options to filter by message type. This is the same output that can be found in the script loader Logs folder.</p>
+</div>
+<div class="section" id="theme-editor">
+<h4>Theme editor<a class="headerlink" href="#theme-editor" title="Permalink to this headline">¶</a></h4>
+<p>Lets you customize and save the script loader overlay color scheme and style. Saved to Settings/GUI Config.json. You can share this with anyone and have them put it in their settings folder so they can use you custom theme.</p>
+</div>
+<div class="section" id="camera-settings">
+<h4>Camera settings<a class="headerlink" href="#camera-settings" title="Permalink to this headline">¶</a></h4>
+<p>Includes settings for the free cam, experimental first person cam, and other camera settings like the far clip distance which is the distance at which nothing is rendered past.</p>
+</div>
+<div class="section" id="physics-settings">
+<h4>Physics settings<a class="headerlink" href="#physics-settings" title="Permalink to this headline">¶</a></h4>
+<p>Has general settings like gravity, frametime multiplier (pseudo slo-mo at values less than 1.0), and settings for the physics solver.</p>
+</div>
+</div>
+<div class="section" id="scripting">
+<h3>Scripting<a class="headerlink" href="#scripting" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="scripts">
+<h4>Scripts<a class="headerlink" href="#scripts" title="Permalink to this headline">¶</a></h4>
+<p>A list of scripts detected in the script loader scripts folder. Allows you to individually run or edit each of the scripts listed.</p>
+</div>
+<div class="section" id="lua-console">
+<h4>Lua console<a class="headerlink" href="#lua-console" title="Permalink to this headline">¶</a></h4>
+<p>Directly executes an input as a lua script. You can call lua functions and set lua variables here. So, for example, you might set the far clip distance to 1200 with <code class="docutils literal notranslate"><span class="pre">`rfg.SetFarClipDistance(1200)`</span></code>. You can also add new functions to be called in the console by calling a script with a non local function declaration.</p>
+</div>
+<div class="section" id="script-editor">
+<h4>Script editor<a class="headerlink" href="#script-editor" title="Permalink to this headline">¶</a></h4>
+<p>Built in script editor. Has all the common text editor shortcuts like copy, paste, select all, etc. This is mainly intended for quick edits. I recommend that you use an external editor like VSCode for larger scripts to take advantage of better syntax highlighting and error checking. Eventually people could also write there own extensions for external editors that highlight RSL specific lua functions and types. See the starbound lua VSCode extension as an example of this.</p>
+</div>
+</div>
+<div class="section" id="help">
+<h3>Help<a class="headerlink" href="#help" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="welcome">
+<h4>Welcome<a class="headerlink" href="#welcome" title="Permalink to this headline">¶</a></h4>
+<p>The welcome menu that shows up each time the script loader overlay is opened. Has buttons for commonly used menus and a shortcuts list.</p>
+</div>
+<div class="section" id="metrics">
+<h4>Metrics<a class="headerlink" href="#metrics" title="Permalink to this headline">¶</a></h4>
+<p>Lists some debug metrics about the RSL overlay.</p>
+</div>
+<div class="section" id="about">
+<h4>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h4>
+<p>Lists info about the current RSL version and info about some of the libraries (such as Dear ImGUi) used by RSL.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="Installation.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, moneyl
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
