@@ -28,7 +28,3 @@ Special thanks is given to `MWSE v2 <https://github.com/MWSE/MWSE>`_ and it's de
    Scripting/Functions
    Scripting/Types
    Scripting/API
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
