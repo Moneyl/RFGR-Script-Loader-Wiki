@@ -11,7 +11,7 @@ Here you'll find all the info you need to start writing lua scripts for RFGR. Wh
 
 Calling lua scripts
 ========================================================
-Currently calling lua scripts is as simple as placing a .lua file in your Scripts folder, ```Red Faction Guerrilla Re-MARS-tered\RFGR Script Loader\Scripts``` and running it through the built in script editor, or script select menu. You might need to hit the refresh button if the script was created externally after RSL was started. 
+Currently calling lua scripts is as simple as placing a .lua file in your Scripts folder, ``Red Faction Guerrilla Re-MARS-tered\RFGR Script Loader\Scripts`` and running it through the built in script editor, or script select menu. You might need to hit the refresh button if the script was created externally after RSL was started. 
 
 You can also open the built-in script editor after loading RSL and save/load/create scripts right from the game. It's good for quick edits and testing, but I'd still recommend using an external editor for major editing.
 
@@ -19,9 +19,9 @@ A later release will feature more advanced methods for loading and running scrip
 
 Core library
 =========================================================
-The core library, in ```Red Faction Guerrilla Re-MARS-tered\RFGR Script Loader\Core```, includes useful functions, and types. It's loaded when RSL is started. You generally shouldn't distribute edits to this with a mod as it's meant to be a common library that all users have. You should however take a look at it. There are many useful values defined in the core library which are referenced in the docs.
+The core library, in ``Red Faction Guerrilla Re-MARS-tered\RFGR Script Loader\Core``, includes useful functions, and types. It's loaded when RSL is started. You generally shouldn't distribute edits to this with a mod as it's meant to be a common library that all users have. You should however take a look at it. There are many useful values defined in the core library which are referenced in the docs.
 
-One example of this is ObjectTypes.lua, which defines the table ```rfg.ObjectTypes```. This table has all object types (which will be discussed more in the next section), and their corresponding integer values, which can be used to sort objects by type. 
+One example of this is ObjectTypes.lua, which defines the table ``rfg.ObjectTypes``. This table has all object types (which will be discussed more in the next section), and their corresponding integer values, which can be used to sort objects by type. 
 
 Objects
 =========================================================

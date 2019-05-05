@@ -69,7 +69,7 @@ A list of scripts detected in the script loader scripts folder. Allows you to in
 
 Lua console
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Directly executes an input as a lua script. You can call lua functions and set lua variables here. So, for example, you might set the far clip distance to 1200 with ```rfg.SetFarClipDistance(1200)```. You can also add new functions to be called in the console by calling a script with a non local function declaration.
+Directly executes an input as a lua script. You can call lua functions and set lua variables here. So, for example, you might set the far clip distance to 1200 with ``rfg.SetFarClipDistance(1200)``. You can also add new functions to be called in the console by calling a script with a non local function declaration.
 
 Script editor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
