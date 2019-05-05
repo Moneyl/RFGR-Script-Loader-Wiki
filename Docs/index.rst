@@ -13,7 +13,7 @@ The goal of this is to allow for more creative and dynamic mods through scriptin
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
-
+   
    Installation
    UseGuide
    Changelog

@@ -1,4 +1,4 @@
-Use Guide
+Overlay Guide
 ********************************************************
 
 This guide will provide you with the basic info you'll need to use the RSL and it's different GUIs and controls. This guide assumes that you've already followed the installation guide and have it working. 
