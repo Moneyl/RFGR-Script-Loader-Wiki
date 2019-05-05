@@ -1,0 +1,251 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Introduction &mdash; Re-mars-tered Script Loader  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="Guides" href="../Guides.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Re-mars-tered Script Loader
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../Installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../UseGuide.html">Overlay Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Changelog.html">Changelog</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scripting:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../Guides.html">Guides</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Introduction</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#calling-lua-scripts">Calling lua scripts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#core-library">Core library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#objects">Objects</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#accessing-objects">Accessing objects</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Re-mars-tered Script Loader</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../Guides.html">Guides</a> &raquo;</li>
+        
+      <li>Introduction</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/Scripting/Guides/Introduction.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>Here you’ll find all the info you need to start writing lua scripts for RFGR. While traditional modding involves editing existing data files to change the properties and behavior of the game, lua scripting allows for a much more dynamic modding experience. Some of the advantages of lua scripting are:</p>
+<ul class="simple">
+<li><p>You aren’t restricted to editing existing data found in xtbls, due to the nature of the RSL the game can be opened up much more than before.</p></li>
+<li><p>Lua scripts are responsive and can change their behavior over time, unlike xtbls which are simply static data files.</p></li>
+<li><p>You can edit lua scripts live instead of needing to restart -&gt; unpack -&gt; edit -&gt; repack -&gt; test -&gt; repeat for even the smallest of changes. The higher iteration rate should speed up mod development and reduce hair pulling.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>RSL is still in early stages of development. As such, you may find incomplete features, bugs, and experience breaking changes in updates. Keep this in mind before using it in it’s current state.</p>
+</div>
+<div class="section" id="calling-lua-scripts">
+<h2>Calling lua scripts<a class="headerlink" href="#calling-lua-scripts" title="Permalink to this headline">¶</a></h2>
+<p>Currently calling lua scripts is as simple as placing a .lua file in your Scripts folder, <code class="docutils literal notranslate"><span class="pre">`Red</span> <span class="pre">Faction</span> <span class="pre">Guerrilla</span> <span class="pre">Re-MARS-tered\RFGR</span> <span class="pre">Script</span> <span class="pre">Loader\Scripts`</span></code> and running it through the built in script editor, or script select menu. You might need to hit the refresh button if the script was created externally after RSL was started.</p>
+<p>You can also open the built-in script editor after loading RSL and save/load/create scripts right from the game. It’s good for quick edits and testing, but I’d still recommend using an external editor for major editing.</p>
+<p>A later release will feature more advanced methods for loading and running scripts. Likely having each script, set of scripts, or mod, be it’s own package with information like version, and dependent packages.</p>
+</div>
+<div class="section" id="core-library">
+<h2>Core library<a class="headerlink" href="#core-library" title="Permalink to this headline">¶</a></h2>
+<p>The core library, in <code class="docutils literal notranslate"><span class="pre">`Red</span> <span class="pre">Faction</span> <span class="pre">Guerrilla</span> <span class="pre">Re-MARS-tered\RFGR</span> <span class="pre">Script</span> <span class="pre">Loader\Core`</span></code>, includes useful functions, and types. It’s loaded when RSL is started. You generally shouldn’t distribute edits to this with a mod as it’s meant to be a common library that all users have. You should however take a look at it. There are many useful values defined in the core library which are referenced in the docs.</p>
+<p>One example of this is ObjectTypes.lua, which defines the table <code class="docutils literal notranslate"><span class="pre">`rfg.ObjectTypes`</span></code>. This table has all object types (which will be discussed more in the next section), and their corresponding integer values, which can be used to sort objects by type.</p>
+</div>
+<div class="section" id="objects">
+<h2>Objects<a class="headerlink" href="#objects" title="Permalink to this headline">¶</a></h2>
+<p>RFGR considers many things in the game world to be objects. Many of the things you can see in the game are objects, such as the player, humans, or vehicles, and even some things you can’t see, like spawn points and cliff killzones. You can see a full list of object types in ObjectTypes.lua, or in the ObjectTypes page here in the docs.</p>
+<p>Since objects are so pervasive, being able to access them is key to interacting with the game world.</p>
+<div class="section" id="accessing-objects">
+<h3>Accessing objects<a class="headerlink" href="#accessing-objects" title="Permalink to this headline">¶</a></h3>
+<p>There are several ways to access objects…</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../Guides.html" class="btn btn-neutral float-left" title="Guides" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, RSL
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

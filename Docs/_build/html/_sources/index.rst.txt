@@ -10,10 +10,12 @@ The Re-mars-tered Script Loader (RSL) adds a lua scripting API to Red Faction Gu
 
 The goal of this is to allow for more creative and dynamic mods through scripting, but also to bypass many of the current limitations of modding the game.
 
+Special thanks is given to `MWSE v2 <https://github.com/MWSE/MWSE>`_ and it's developers. It's been used as an inspiration and source of ideas for RSL. You may also notice many structural similarities with these docs and theirs.
+
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
-   
+
    Installation
    UseGuide
    Changelog
