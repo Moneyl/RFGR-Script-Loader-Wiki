@@ -7,7 +7,7 @@ This page contains a list of guides for lua scripting for RFGR using the RSL. No
 
 .. toctree::
    :maxdepth: 1
+   :glob:
 
-   Guides/Introduction
-   Guides/AccessingGameObjects
-   Guides/ScriptOverrides
+   Guides/*
+
