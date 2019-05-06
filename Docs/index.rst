@@ -8,7 +8,7 @@ Special thanks is given to `MWSE v2 <https://github.com/MWSE/MWSE>`_ and it's de
 .. important:: The latest version of RSL can be found on the `github releases page <https://github.com/Moneyl/RFGR-Script-Loader-Wiki/releases>`_. For discussion about scripting, troubleshooting, or modding try the mod_makers_talk channel in the `Official Red Faction discord server <https://discord.gg/redfaction>`_.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    Installation
    OverlayGuide
@@ -16,7 +16,7 @@ Special thanks is given to `MWSE v2 <https://github.com/MWSE/MWSE>`_ and it's de
    Contributing
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Scripting:
 
    Scripting/Guides
