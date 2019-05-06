@@ -24,7 +24,6 @@ The first thing you'll want to do is create a fork of the RSL wiki repo. To do t
 
 Next thing you'll want to do is clone your fork to your desktop. Through github desktop you can do this with File > Clone repository... > URL, and then simply paste the URL for your fork there and select a folder to clone it to. You can also log into your github account through Github Desktop and get a list of all of your repos, including the fork. Once complete you should have a folder with your fork cloned to it. Open that folder for the next step.
 
-.. _EditingDocs:
 Editing the docs
 ------------------------------------------------------------
 At this point you can start making edits to the docs. You'll being editing the rst files in the Docs folder. These files are used by sphinx to generate the docs that you are reading right now. This guide will not go over the syntax of reStructuredText, as there are many existing guides on that. You should check out the `reStructuredText Primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ and also look at the existing rst files for examples of how it works. This is where the VSCode extension mentioned earlier comes into play as it lets you see the effect of your edits live, which makes learning the syntax much easier.
