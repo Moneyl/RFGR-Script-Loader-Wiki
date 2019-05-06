@@ -61,6 +61,9 @@ This applies to accessing objects no matter which method you use to access them.
 
 You can also find objects with their handle via ``rfg.GetObjectByHandle``, which works in the same way, but instead takes an unsigned integer argument. You can find object handles in many types. For example, ``Human.ShieldHandle`` is the object handle of that humans shield if they possess one.
 
+.. important:: As of release 0.4.0 not all object types have been bound to lua yet due to time constraints. Therefore you can only cast to a few of them for now. The available object types for 0.4.0 are Human, Player, Zone, and District. For all other object types you'll only be able to access variables available to all `objects`_.
+
+
 The next way to access objects is by iterating through the world object list. This is a list of all objects in the game world. The object list can be found in the rfg world table. This method is useful for when you're looking for an unnamed object, or if you wish to change all objects of a certain type, like vehicles for example. You can access the world table directly through ``rfg.ActiveWorld`` or create your own variable to reference it with ``your_var = rfg.GetWorld()``. 
 
 From here you can use a loop to run through the object list, object by object, and perform your changes. Here's an example that loops through the object list, and counts the number of humans in the list.
@@ -87,3 +90,4 @@ There are many other functions, types, and values available to scripts. Too many
 .. _`types`: ../Types.html
 .. _`contributing`: ../../Contributing.html
 .. _`examples`: ../Examples.html
+.. _`objects`: ../Types/Object.html
