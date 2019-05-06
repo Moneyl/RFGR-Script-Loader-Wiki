@@ -16,7 +16,7 @@ To contribute to the docs you'll need the following:
 - A git client. You can use the console application if you'd like, but it's reccommended that you use a gui client for ease of use. `Github desktop <https://desktop.github.com/>`_ and `Gitkraken <https://www.gitkraken.com/>`_ are both excellent git clients available for free.
 - `Python <https://www.python.org/>`_ for building the docs locally. The latest version should be fine.
 - `Sphinx <https://www.sphinx-doc.org/en/master/>`_ for generating the docs. If you have python and pip installed you can just run ``pip install -U Sphinx`` on the command line.
-- (Optional) `Visual Studio Code <https://code.visualstudio.com/>`_ with the `reStructureText extension <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_ which will allow you to see a live preview of the page you are editing. This makes editing much smoother instead of needing to regenerate the docs on each edit and open them in your browser.
+- (Optional) `Visual Studio Code <https://code.visualstudio.com/>`_ with the `reStructuredText extension <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_ which will allow you to see a live preview of the page you are editing. This makes editing much smoother instead of needing to regenerate the docs on each edit and open them in your browser.
 
 Preparing the repo
 ----------------------------------------------------------
