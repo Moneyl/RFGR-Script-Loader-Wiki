@@ -31,4 +31,59 @@ Since objects are so pervasive, being able to access them is key to interacting 
 
 Accessing objects
 ---------------------------------------------------------
-There are several ways to access objects... 
+There are several ways to access objects. The first way to is use ``rfg.GetObject``. It takes a string, which is the name of the object you're looking for. This isn't the most reliable way of finding objects, as a large percentage of them are nameless. Still, it can be useful for easily finding known objects like Samanya, or specific map districts. It can be used like so:
+
+.. code-block:: lua
+
+    Sam = rfg.GetObject("Samanya") -- Get samanya's object
+    rsl.Log(Sam.Position.GetDataString()) -- Log Sams x,y,z position
+
+    --[[ Currently Sam is an Object type. To access variables 
+    specific to Humans such as Human.StealthPercent you'll need
+    to cast her variable to a human type. This can be done like so...--]] 
+
+    SamAsHuman = Sam:CastToHuman()
+    rsl.Log(toString(SamAsHuman.StealthPercent)) -- Prove that it worked by accessing a human specific variable
+
+    -- Alternatively, you can reuse the existing variable
+    Sam = Sam:CastToHuman()
+    rsl.Log(toString(Sam.StealthPercent))
+
+Note that if you tried accessing a human specific variable (or other derived types variable) before casting to that object type you should experience an error when running the script. As shown in this next example:
+
+.. code-block:: lua
+
+    Sam = rfg.GetObject("Samanya") -- Get samanya's objects
+    rsl.Log(toString(Sam.StealthPercent)) 
+    -- Bad! This will cause an error as you're trying to access a Human variable before casting Sam to a Human type
+
+This applies to accessing objects no matter which method you use to access them.
+
+You can also find objects with their handle via ``rfg.GetObjectByHandle``, which works in the same way, but instead takes an unsigned integer argument. You can find object handles in many types. For example, ``Human.ShieldHandle`` is the object handle of that humans shield if they possess one.
+
+The next way to access objects is by iterating through the world object list. This is a list of all objects in the game world. The object list can be found in the rfg world table. This method is useful for when you're looking for an unnamed object, or if you wish to change all objects of a certain type, like vehicles for example. You can access the world table directly through ``rfg.ActiveWorld`` or create your own variable to reference it with ``your_var = rfg.GetWorld()``. 
+
+From here you can use a loop to run through the object list, object by object, and perform your changes. Here's an example that loops through the object list, and counts the number of humans in the list.
+
+.. code-block:: lua
+
+    HumanCount = 0
+    for i=0, rfg.ActiveWorld.AllObjects:size(), 1 do
+        CurrentObject = rfg.ActiveWorld.AllObjects[i] -- Make a reference variable to the current object for convenience.
+        if CurrentObject.Type == rfg.ObjectTypes.Human then -- Check if current objects type matches the value for Humans
+            HumanCount = HumanCount + 1
+        end
+    end
+
+    rsl.Log("HumanCount: " .. toString(HumanCount))
+
+Note that while lua tables use 1 based indexing, the rfg object list uses 0 based indexing. This is a side effect of c++ using 0 based indexing, but, this may be changed in a future update to avoid inconsistency with existing lua standards.
+
+Where to go from here
+=====================================================================
+There are many other functions, types, and values available to scripts. Too many to list here. To see a list of functions and tables available to scripts and details about their usage you should look at the `namespaces`_ page. The `types`_ page has a list of types available to scripts. For more usage examples you should read the rest of the guides, and look through some of the `examples`_ provided. If you'd like to contribute the the docs you should read `contributing`_.
+
+.. _`namespaces`: ../Namespaces.html
+.. _`types`: ../Types.html
+.. _`contributing`: ../../Contributing.html
+.. _`examples`: ../Examples.html
