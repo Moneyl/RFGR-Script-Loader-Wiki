@@ -51,5 +51,5 @@ Strings can be concatenated using ``..``
 .. code-block:: lua
 
     MyString = "Hello"
-    MyString .. " World!"
+    MyString = MyString .. " World!"
     -- Now MyString == "Hello World!"
