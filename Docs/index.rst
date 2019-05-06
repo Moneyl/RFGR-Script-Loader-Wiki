@@ -20,6 +20,6 @@ Special thanks is given to `MWSE v2 <https://github.com/MWSE/MWSE>`_ and it's de
    :caption: Scripting:
 
    Scripting/Guides
-   Scripting/Functions
+   Scripting/Namespaces
    Scripting/Types
-   Scripting/API
+   Scripting/Examples
