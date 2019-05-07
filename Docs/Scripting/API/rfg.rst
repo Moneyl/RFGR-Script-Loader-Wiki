@@ -1,18 +1,11 @@
+
 rfg
 ********************************************************
-
-rfg namespace description (placeholder)
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Types
-   :glob:
-
-   rfg/Types/*
+This table contains the functions and types used internally by rfg, and some helper functions which make scripting easier.
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Functions
+   :maxdepth: 2
    :glob:
 
-   rfg/Functions/*
+   rfg/Types
+   rfg/Functions
