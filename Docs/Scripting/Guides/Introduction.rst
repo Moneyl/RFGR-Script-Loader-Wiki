@@ -82,12 +82,11 @@ From here you can use a loop to run through the object list, object by object, a
 
 Note that while lua tables use 1 based indexing, the rfg object list uses 0 based indexing. This is a side effect of c++ using 0 based indexing, but, this may be changed in a future update to avoid inconsistency with existing lua standards.
 
-Where to go from here
+What next
 =====================================================================
-There are many other functions, types, and values available to scripts. Too many to list here. To see a list of functions and tables available to scripts and details about their usage you should look at the `namespaces`_ page. The `types`_ page has a list of types available to scripts. For more usage examples you should read the rest of the guides, and look through some of the `examples`_ provided. If you'd like to contribute the the docs you should read `contributing`_.
+There are many other functions, types, and values available to scripts. Too many to list here. To see a list of them and more details you should view the `API`_ page. For more usage examples you should read the rest of the guides, and look through the `examples`_ provided. If you'd like to contribute the the docs you should read `contributing`_.
 
-.. _`namespaces`: ../Namespaces.html
-.. _`types`: ../Types.html
+.. _`API`: ../API.html
 .. _`contributing`: ../../Contributing.html
 .. _`examples`: ../Examples.html
-.. _`objects`: ../Types/Object.html
+.. _`objects`: ../API/rfg/Types/Object.html

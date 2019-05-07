@@ -19,7 +19,6 @@ Special thanks is given to `MWSE v2 <https://github.com/MWSE/MWSE>`_ and it's de
    :maxdepth: 2
    :caption: Scripting:
 
+   Scripting/API
    Scripting/Guides
-   Scripting/Namespaces
-   Scripting/Types
    Scripting/Examples
