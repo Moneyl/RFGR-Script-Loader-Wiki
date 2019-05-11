@@ -3,8 +3,11 @@ Object
 ********************************************************
 Nearly all things you can see in the game, and even some things you can't see, like spawn points or trigger regions, are derived from this type.
 
-- :ref:`variables`
-- :ref:`functions`
+
+- :ref:`Object-variables`
+- :ref:`Object-functions`
+
+.. _Object-variables:
 
 Variables
 ========================================================
@@ -30,7 +33,7 @@ Variables
 .. **HostConstraintPtr** (`Constraint`_)
     desc (Not yet bound)
 
-**AttachInfo** (`ObjectContactInfo`_)
+**AttachInfo** (`AttachInfoData`_)
     Data about how this object is attached to other objects if applicable. May be nil if it is not.
 
 **HavokHandle** (`unsigned int`_)
@@ -88,32 +91,37 @@ Variables
     Exact purpose unknown. Might to be a unique integer identifying the object (unconfirmed).
 
 
+.. _Object-functions:
+
 Functions
 ========================================================
 
 .. warning:: Be sure to check an objects type before casting it to avoid having  garbage values or unintentionally changing adjacent memory. For example, if you are casting an object to `Human`_, double check that ``Self.Type == rfg.ObjectTypes.Human`` is true before casting it.
 
-**CastToHuman** (Args: Object)
+**CastToHuman** (`Object`_)
     Returns this object as a `Human`_. 
 
-**CastToPlayer** (Args: Object)
+**CastToPlayer** (`Object`_)
     Returns this object as a `Player`_. 
 
-**CastToZone** (Args: Object)
+**CastToZone** (`Object`_)
     Returns this object as a `WorldZone`_. 
 
-**CastToDistrict** (Args: Object)
+**CastToDistrict** (`Object`_)
     Returns this object as a `District`_. 
 
-.. _`Vector`: ./Vector.html
-.. _`Matrix`: ./Matrix.html
-.. _`ObjectContactInfo`: ./ObjectContactInfo.html
-.. _`ObjectFlags`: ./ObjectFlags.html
-.. _`Human`: ./Human.html
-.. _`Player`: ./Player.html
-.. _`WorldZone`: ./WorldZone.html
-.. _`District`: ./District.html
-.. _`unsigned int`: ./PrimitiveTypes.html
-.. _`int`: ./PrimitiveTypes.html
-.. _`int16`: ./PrimitiveTypes.html
-.. _`char`: ./PrimitiveTypes.html
+.. `Object`: ./Object.html
+.. `Vector`: ./Vector.html
+.. `Matrix`: ./Matrix.html
+.. `AttachInfoData`: ./AttachInfoData.html
+.. `ObjectContactInfo`: ./ObjectContactInfo.html
+.. `ObjectFlags`: ./ObjectFlags.html
+.. `Human`: ./Human.html
+.. `Player`: ./Player.html
+.. `WorldZone`: ./WorldZone.html
+.. `District`: ./District.html
+.. `HavokBPO`: ./HavokBPO.html
+.. `unsigned int`: ./PrimitiveTypes.html
+.. `int`: ./PrimitiveTypes.html
+.. `int16`: ./PrimitiveTypes.html
+.. `char`: ./PrimitiveTypes.html
