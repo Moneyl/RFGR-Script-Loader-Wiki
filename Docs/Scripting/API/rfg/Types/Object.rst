@@ -110,18 +110,18 @@ Functions
 **CastToDistrict** (`Object`_)
     Returns this object as a `District`_. 
 
-.. `Object`: ./Object.html
-.. `Vector`: ./Vector.html
-.. `Matrix`: ./Matrix.html
-.. `AttachInfoData`: ./AttachInfoData.html
-.. `ObjectContactInfo`: ./ObjectContactInfo.html
-.. `ObjectFlags`: ./ObjectFlags.html
-.. `Human`: ./Human.html
-.. `Player`: ./Player.html
-.. `WorldZone`: ./WorldZone.html
-.. `District`: ./District.html
-.. `HavokBPO`: ./HavokBPO.html
-.. `unsigned int`: ./PrimitiveTypes.html
-.. `int`: ./PrimitiveTypes.html
-.. `int16`: ./PrimitiveTypes.html
-.. `char`: ./PrimitiveTypes.html
+.. _`Object`: ./Object.html
+.. _`Vector`: ./Vector.html
+.. _`Matrix`: ./Matrix.html
+.. _`AttachInfoData`: ./AttachInfoData.html
+.. _`ObjectContactInfo`: ./ObjectContactInfo.html
+.. _`ObjectFlags`: ./ObjectFlags.html
+.. _`Human`: ./Human.html
+.. _`Player`: ./Player.html
+.. _`WorldZone`: ./WorldZone.html
+.. _`District`: ./District.html
+.. _`HavokBPO`: ./HavokBPO.html
+.. _`unsigned int`: ./PrimitiveTypes.html
+.. _`int`: ./PrimitiveTypes.html
+.. _`int16`: ./PrimitiveTypes.html
+.. _`char`: ./PrimitiveTypes.html
