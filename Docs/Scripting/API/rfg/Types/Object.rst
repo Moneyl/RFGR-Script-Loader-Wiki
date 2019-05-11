@@ -18,13 +18,13 @@ Variables
 **Orientation** (`Matrix`_)
     A 3x3 matrix which describes the orientation of the object. Consists of a right vector, up vector, and forward vector.
 
-**Child** (Object)
+**Child** (`Object`_)
     Pointer to one of the objects children. Is nil if it has no children.
 
-**ChildNext** (Object)
+**ChildNext** (`Object`_)
     Shortcut for ``Self.Child.FlaggedNext``. Is nil if no children
 
-**ChildPrevious** (Object)
+**ChildPrevious** (`Object`_)
     Shortcut for ``Self.Child.FlaggedPrevious``. Is nil if no children.
 
 .. **ChildConstraintPtr** (`Constraint`_)
