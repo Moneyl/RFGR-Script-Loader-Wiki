@@ -36,7 +36,18 @@ Type        Range            Precision
 
 Bool
 ========================================================
-A bool (or boolean) type can either be ``true`` or ``false``.
+A bool (or boolean) type can either be ``true`` or ``false``. You can use boolean values as expressions in if statements, like so:
+
+.. code-block:: lua
+
+    a = true
+    if a then
+        rsl.Log("a is true!", LogType.Info)
+    end
+
+Bitfields
+========================================================
+A bitfield is a type that allows the game to make variables smaller than 1 byte in size so that it may pack data in more tightly, and save on RAM usage. The important thing to know about this type is that it can widely vary in size, and number range and so each bitfield will have it's number range listed. It's always an integral type so decimals will be rounded towards zero.
 
 String
 ========================================================
