@@ -27,10 +27,10 @@ Variables
     Uses the relative transform if set to 1. ``Range: 0-1``
 
 **UpdatePhysics** (`Bitfield`_)
-    Set to 1 if the game needs to update it's physics. ``Range: 0-1``
+    Set to 1 if the game needs to update it's physics. ``Range: 0 to 1``
 
 **Updated** (`Bitfield`_)
-    Set to 1 if the game has updated it's physics. ``Range: 0-1``
+    Set to 1 if the game has updated it's physics. ``Range: 0 to 1``
     
 
 .. _AttachInfoData-functions
