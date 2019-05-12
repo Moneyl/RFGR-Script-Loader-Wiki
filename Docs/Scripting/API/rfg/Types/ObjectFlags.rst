@@ -1,4 +1,6 @@
 
+.. attention:: This page is incomplete and needs better descriptions and research into the behavior of the variables.
+
 ObjectFlags
 ********************************************************
 A set of flags used to describe an objects state and determines how the game treats it. 

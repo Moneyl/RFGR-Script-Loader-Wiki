@@ -21,6 +21,7 @@ Variables
 
 .. _`Bitfield`: ./PrimitiveTypes.html
 .. _`int`: ./PrimitiveTypes.html
+.. _`int16`: ./PrimitiveTypes.html
 .. _`unsigned int`: ./PrimitiveTypes.html
 .. _`float`: ./PrimitiveTypes.html
 .. _`Matrix43`: ./Matrix43.html
