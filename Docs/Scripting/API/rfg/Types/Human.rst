@@ -67,7 +67,7 @@ Variables
 **SteeringHeadingOffset** (`float`_)
     Unknown value. Possibly an angle offset from 0 degrees.
 
-**RotateDirection** (`HumanRotateDirection`_)
+**RotateDirection** (`HumanRotateDirections`_)
     Determines which direction (clockwise, counter-clockwise) the human will rotate in.
 
 **StateSpeedThrottle** (`float`_)
@@ -142,7 +142,7 @@ Variables
 **PreviousMovementMode** (`HumanMoveModes`_)
     The previous movement mode.
 
-**CustomFireAnimation** (`AnimationAction`_)
+**CustomFireAnimation** (`AnimationActions`_)
     Fire animation info.
 
 **WalkAnimationSpeedPercentage** (`float`_)
@@ -172,7 +172,7 @@ Variables
 **WepAnimationFlags** (`WeaponAnimationFlags`_)
     Weapon animation flags.
 
-**RagdollState** (`HumanRagdollState`_)
+**RagdollState** (`HumanRagdollStates`_)
     Ragdoll state. Flinch, active, blend out, etc.
 
 **RagdollSourceHumanHandle** (`unsigned int`_)
@@ -558,3 +558,17 @@ Variables
 .. _`int[2]`: ./PrimitiveTypes.html
 .. _`unsigned int[2]`: ./PrimitiveTypes.html
 .. _`unsigned int[16]`: ./PrimitiveTypes.html
+.. _`ObjectRenderDistance`: ./ObjectRenderDistance.html
+.. _`HumanRaycastHitInfo`: ./HumanRaycastHitInfo.html
+.. _`HumanRotateDirections`: ./HumanRotateDirections.html
+.. _`BlockMovementTypes`: ./BlockMovementTypes.html
+.. _`HumanStates`: ./HumanStates.html
+.. _`HumanMovementStates`: ./HumanMovementStates.html
+.. _`HumanStances`: ./HumanStances.html
+.. _`HumanMoveModes`: ./HumanMoveModes.html
+.. _`HumanMoveSubmodes`: ./HumanMoveSubmodes.html
+.. _`AnimationActions`: ./AnimationAction.html
+.. _`Timestamp`: ./Timestamp.html
+.. _`CharacterInstance`: ./CharacterInstance.html
+.. _`WeaponAnimationFlags`: ./WeaponAnimationFlags.html
+.. _`HumanRagdollStates`: ./HumanRagdollStates.html
