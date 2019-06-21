@@ -543,6 +543,7 @@ Variables
 .. _`ObjectFlags`: ./ObjectFlags.html
 .. _`Human`: ./Human.html
 .. _`HumanFlags`: ./HumanFlags.html
+.. _`HumanInfo`: ./HumanInfo.html
 .. _`Player`: ./Player.html
 .. _`WorldZone`: ./WorldZone.html
 .. _`District`: ./District.html
