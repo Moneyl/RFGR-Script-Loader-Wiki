@@ -38,7 +38,7 @@ Variables
     If true they're considered armed by the EDF.
 
 **RiotShield** (`bool`_)
-    If true this human will have a riot shield in one of their hands. Works for the player, yet they won't use the proper shield animation so it'll behave like an armored gauntlet on one of their arms.
+    Unknown value.
 
 **SafehouseVIP** (`bool`_)
     Unknown value.
