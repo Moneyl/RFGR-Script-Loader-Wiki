@@ -2,7 +2,7 @@
 
 HumanFlags
 ********************************************************
-Description goes here
+Additional flags used to describe the behavior of a given human.
 
 Variables
 ========================================================
@@ -14,7 +14,7 @@ Variables
     Unknown value.
 
 **CapSpeed** (`bool`_)
-    Unknown value.
+    True if the came should limit the movement speed of this human.
 
 **WasRendered** (`bool`_)
     Unknown value.
@@ -23,7 +23,7 @@ Variables
     Unknown value.
 
 **Invulnerable** (`bool`_)
-    Unknown value.
+    If true this human is invulnerable to all damage including killzones. In the case of the player they'll get stuck and unable to move if they fall into a killzone with this set to true.
 
 **MissionInvulnerable** (`bool`_)
     Unknown value.
@@ -35,10 +35,10 @@ Variables
     Unknown value.
 
 **ConsideredArmed** (`bool`_)
-    Unknown value.
+    If true they're considered armed by the EDF.
 
 **RiotShield** (`bool`_)
-    Unknown value.
+    If true this human will have a riot shield in one of their hands. Works for the player, yet they won't use the proper shield animation so it'll behave like an armored gauntlet on one of their arms.
 
 **SafehouseVIP** (`bool`_)
     Unknown value.
@@ -62,10 +62,10 @@ Variables
     Unknown value.
 
 **DamagedByPlayer** (`bool`_)
-    Unknown value.
+    True if this human was damaged by the player.
 
 **AiIgnore** (`bool`_)
-    Unknown value.
+    If true, AI will ignore this player. If an AI is already in combat with this human then they'll stay aggressive even after setting this to true.
 
 **CastsShadows** (`bool`_)
     Unknown value.
@@ -74,10 +74,10 @@ Variables
     Unknown value.
 
 **IsTurning** (`bool`_)
-    Unknown value.
+    True if this human is turning.
 
 **IsFalling** (`bool`_)
-    Unknown value.
+    True if this human is falling.
 
 **DontDeformBones** (`bool`_)
     Unknown value.
@@ -98,10 +98,10 @@ Variables
     Unknown value.
 
 **StartJump** (`bool`_)
-    Unknown value.
+    Unknown value. Setting this to true does not cause the human to jump.
 
 **SuperJump** (`bool`_)
-    Unknown value.
+    Unknown value. Setting this to true does not cause any noticeable change in jump behavior or height.
 
 **ProcessedThisFrame** (`bool`_)
     Unknown value.
@@ -128,7 +128,7 @@ Variables
     Unknown value.
 
 **OnFire** (`bool`_)
-    Unknown value.
+    Unknown value. Untested, but it's possible this is set to true when a remote charge is thrown on a human.
 
 **DroppedCash** (`bool`_)
     Unknown value.
@@ -143,13 +143,13 @@ Variables
     Unknown value.
 
 **LastDestinationInRepulsor** (`bool`_)
-    Unknown value.
+    Unknown value. Likely has something to do with pathfinding.
 
 **JumpingFromBuilding** (`bool`_)
     Unknown value.
 
 **IsOnLadder** (`bool`_)
-    Unknown value.
+    True if they're on a ladder.
 
 **LadderForceSlide** (`bool`_)
     Unknown value.
