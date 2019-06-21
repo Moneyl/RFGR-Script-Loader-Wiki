@@ -15,7 +15,7 @@ These values are used to differentiate each object type from each other. These a
     rsl.Log("Number of human objects found: " .. tostring(HumanCount))
 
 ====================== ========================================= ==========
-Object Type            Access Variable                  Value     
+Object Type            Access Variable                           Value     
 ====================== ========================================= ==========
 `Human`_               ``rfg.ObjectTypes.Human``                 0
 Item                   ``rfg.ObjectTypes.Item``                  1
