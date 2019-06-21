@@ -47,7 +47,7 @@ A bool (or boolean) type can either be ``true`` or ``false``. You can use boolea
 
 Bitfields
 ========================================================
-A bitfield is a type that allows the game to make variables smaller than 1 byte in size so that it may pack data in more tightly, and save on RAM usage. The important thing to know about this type is that it can widely vary in size, and number range and so each bitfield will have it's number range listed. It's always an integral type so decimals will be rounded towards zero.
+A bitfield is a type that allows the game to make variables smaller than 1 byte in size so that it may pack data in more tightly, and save on RAM usage. The important thing to know about this type is that it can widely vary in size and number range. As such, each bitfield will have it's number range listed. Bitfields are always an integral type so if you set a bitfield to a decimal value it will be rounded towards zero.
 
 String
 ========================================================
