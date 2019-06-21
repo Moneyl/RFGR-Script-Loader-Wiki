@@ -107,9 +107,6 @@ Functions
 **CastToZone** (`Object`_)
     Returns this object as a `WorldZone`_. 
 
-**CastToDistrict** (`Object`_)
-    Returns this object as a `District`_. 
-
 .. _`Object`: ./Object.html
 .. _`Vector`: ./Vector.html
 .. _`Matrix`: ./Matrix.html
