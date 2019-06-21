@@ -542,6 +542,7 @@ Variables
 .. _`ObjectContactInfo`: ./ObjectContactInfo.html
 .. _`ObjectFlags`: ./ObjectFlags.html
 .. _`Human`: ./Human.html
+.. _`HumanFlags`: ./HumanFlags.html
 .. _`Player`: ./Player.html
 .. _`WorldZone`: ./WorldZone.html
 .. _`District`: ./District.html
@@ -551,3 +552,8 @@ Variables
 .. _`unsigned int16`: ./PrimitiveTypes.html
 .. _`int16`: ./PrimitiveTypes.html
 .. _`char`: ./PrimitiveTypes.html
+.. _`float`: ./PrimitiveTypes.html
+.. _`bool`: ./PrimitiveTypes.html
+.. _`int[2]`: ./PrimitiveTypes.html
+.. _`unsigned int[2]`: ./PrimitiveTypes.html
+.. _`unsigned int[16]`: ./PrimitiveTypes.html
