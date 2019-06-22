@@ -36,26 +36,26 @@ There are several ways to access objects. The first way to is use ``rfg.GetObjec
 .. code-block:: lua
 
     Sam = rfg.GetObject("Samanya") -- Get samanya's object
-    rsl.Log(Sam.Position.GetDataString()) -- Log Sams x,y,z position
+    rsl.Log(Sam.Position:GetDataString()) -- Log Sams x,y,z position
 
     --[[ Currently Sam is an Object type. To access variables 
     specific to Humans such as Human.StealthPercent you'll need
     to cast her variable to a human type. This can be done like so...--]] 
 
     SamAsHuman = Sam:CastToHuman()
-    rsl.Log(toString(SamAsHuman.StealthPercent)) -- Prove that it worked by accessing a human specific variable
+    rsl.Log(tostring(SamAsHuman.StealthPercent)) -- Prove that it worked by accessing a human specific variable
 
     -- Alternatively, you can reuse the existing variable
     Sam = Sam:CastToHuman()
-    rsl.Log(toString(Sam.StealthPercent))
+    rsl.Log(tostring(Sam.StealthPercent))
 
 Note that if you tried accessing a human specific variable (or other derived types variable) before casting to that object type you should experience an error when running the script. As shown in this next example:
 
 .. code-block:: lua
 
     Sam = rfg.GetObject("Samanya") -- Get samanya's objects
-    rsl.Log(toString(Sam.StealthPercent)) 
-    -- Bad! This will cause an error as you're trying to access a Human variable before casting Sam to a Human type
+    rsl.Log(tostring(Sam.StealthPercent)) 
+    -- Bad! This will cause an error as you're trying to access a Human variable before casting Sam (an object type) to a Human type
 
 This applies to accessing objects no matter which method you use to access them.
 
@@ -71,14 +71,14 @@ From here you can use a loop to run through the object list, object by object, a
 .. code-block:: lua
 
     HumanCount = 0
-    for i=0, rfg.ActiveWorld.AllObjects:size(), 1 do
+    for i=0, rfg.ActiveWorld.AllObjects:Size(), 1 do
         CurrentObject = rfg.ActiveWorld.AllObjects[i] -- Make a reference variable to the current object for convenience.
         if CurrentObject.Type == rfg.ObjectTypes.Human then -- Check if current objects type matches the value for Humans
             HumanCount = HumanCount + 1
         end
     end
 
-    rsl.Log("HumanCount: " .. toString(HumanCount))
+    rsl.Log("HumanCount: " .. tostring(HumanCount))
 
 Note that while lua tables use 1 based indexing, the rfg object list uses 0 based indexing. This is a side effect of c++ using 0 based indexing, but, this may be changed in a future update to avoid inconsistency with existing lua standards.
 
