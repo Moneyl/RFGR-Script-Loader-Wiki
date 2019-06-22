@@ -211,7 +211,7 @@ Variables
 **RagdollNumCollisionsWithWalker** (`int`_)
     Unknown value.
 
-**IK_Joints** (`IK_Joint[4]`_)
+**IK_Joints** (`IkJoint[4]`_)
     Inverse kinematics joints of the humans body.
 
 **InitialMaxHitPoints** (`int`_)
@@ -442,7 +442,7 @@ Variables
 **UpdateTimer** (`Timestamp`_)
     Unknown value.
 
-**ImportanceLevel** (`ObjectImportanceLevel`_)
+**ImportanceLevel** (`ObjectImportanceLevels`_)
     Unknown value.
 
 **ScriptedActionNodeHandle** (`unsigned int`_)
@@ -508,7 +508,7 @@ Variables
 **VoicePriority** (`VoiceLinePriorities`_)
     Unknown value.
 
-**VoiceCuePriority** (`AudiolibCuePriority`_)
+**VoiceCuePriority** (`AudiolibCuePriorities`_)
     Unknown value.
 
 **RadioInstance** (`unsigned int16`_)
@@ -567,8 +567,21 @@ Variables
 .. _`HumanStances`: ./HumanStances.html
 .. _`HumanMoveModes`: ./HumanMoveModes.html
 .. _`HumanMoveSubmodes`: ./HumanMoveSubmodes.html
-.. _`AnimationActions`: ./AnimationAction.html
+.. _`AnimationActions`: ./AnimationActions.html
 .. _`Timestamp`: ./Timestamp.html
 .. _`CharacterInstance`: ./CharacterInstance.html
 .. _`WeaponAnimationFlags`: ./WeaponAnimationFlags.html
 .. _`HumanRagdollStates`: ./HumanRagdollStates.html
+.. _`ObjectImportanceLevels`: ./ObjectImportanceLevels.html
+.. _`VehicleSeatIndex`: ./VehicleSeatIndex.html
+.. _`IkJoint`: ./IkJoint.html
+.. _`IkJoint[4]`: ./IkJoint.html
+.. _`InventoryItem`: ./InventoryItem.html
+.. _`NanoCallbackInfo[16]`: ./NanoCallbackInfo.html
+.. _`HumanTeams`: ./HumanTeams.html
+.. _`FootPlant`: ./FootPlant.html
+.. _`VoiceLineHandle`: ./VoiceLineHandle.html
+.. _`VoiceLines`: ./VoiceLines.html
+.. _`VoiceLinePriorities`: ./VoiceLinePriorities.html
+.. _`AudiolibCuePriorities`: ./AudiolibCuePriorities.html
+.. _`LipsyncDataHandle`: ./LipsyncDataHandle.html
