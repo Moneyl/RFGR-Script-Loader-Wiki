@@ -12,454 +12,454 @@ Variables
 ========================================================
 
 **Frametimemultiplier** ('float'_)
-Unknown value.
+    Unknown value.
 
 **ActionObject** ('Useableobject'_)
-Unknown value.
+    Unknown value.
 
 **ActionObjectTimestamp** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **LastFireTime** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('MpActionObjectHandle;'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('RadioId;'_)
-Unknown value.
+    Unknown value.
 
 **Taggingsequence** ('TagTrigger;'_)
-Unknown value.
+    Unknown value.
 
 **Timestamp** ('TagSeq;'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('TagTimer;'_)
-Unknown value.
+    Unknown value.
 
 **Hudmessagehandle** ('Tageffect;'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('HudMessage;'_)
-Unknown value.
+    Unknown value.
 
 **HavokFilterGroup** ('int'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('AimTarget;'_)
-Unknown value.
+    Unknown value.
 
 **PenetratingAimTarget** ('int'_)
-Unknown value.
+    Unknown value.
 
 **PenetratingAimPos** ('Vector'_)
-Unknown value.
+    Unknown value.
 
 **AimTargetDuration** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Vector** ('HeatSeekingTarget;'_)
-Unknown value.
+    Unknown value.
 
 **Timestamp** ('AimPos;'_)
-Unknown value.
+    Unknown value.
 
 **Float** ('CombatTargetUpdateTime;'_)
-Unknown value.
+    Unknown value.
 
 **Bool** ('RemoteChargeTime;'_)
-Unknown value.
+    Unknown value.
 
 **Playerzoomstate** ('DoingRemoteCharge;'_)
-Unknown value.
+    Unknown value.
 
 **Playerzoomstate** ('ZoomState;'_)
-Unknown value.
+    Unknown value.
 
 **Vector** ('PreviousZoomState;'_)
-Unknown value.
+    Unknown value.
 
 **Vector** ('CoverVector;'_)
-Unknown value.
+    Unknown value.
 
 **Timestamp** ('CoverVectorRight;'_)
-Unknown value.
+    Unknown value.
 
 **Timestamp** ('EnteringCover;'_)
-Unknown value.
+    Unknown value.
 
 **Float** ('ExitingCover;'_)
-Unknown value.
+    Unknown value.
 
 **Bool** ('CoverMoveVel;'_)
-Unknown value.
+    Unknown value.
 
 **Timestamp** ('CoverApproachingEdge;'_)
-Unknown value.
+    Unknown value.
 
 **Vector** ('CoverApproachingEdgeTs;'_)
-Unknown value.
+    Unknown value.
 
 **Vector** ('CoverEdgeHitPos;'_)
-Unknown value.
+    Unknown value.
 
 **Vector** ('CoverEdgeMissPos;'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('ThrownWeaponCheckPos;'_)
-Unknown value.
+    Unknown value.
 
 **Timestamppercent** ('CombatMoveQueue;'_)
-Unknown value.
+    Unknown value.
 
 **Float** ('PreviousBulletHit;'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Jetpackfuelpercent;'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('Jetpackfoley;'_)
-Unknown value.
+    Unknown value.
 
 **Jetpackeffect** ('int'_)
-Unknown value.
+    Unknown value.
 
 **Allowragdoll** ('bool'_)
-Unknown value.
+    Unknown value.
 
 **Pflags** ('Playerflags'_)
-Unknown value.
+    Unknown value.
 
 **HoldObjectAvailable** ('bool'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('HoldObjectHandle;'_)
-Unknown value.
+    Unknown value.
 
 **AbandonedVehicles[3]** ('int'_)
-Unknown value.
+    Unknown value.
 
 **NumAbandonedVehicles** ('int'_)
-Unknown value.
+    Unknown value.
 
 **CustomVehicles[50]** ('Customvehicle'_)
-Unknown value.
+    Unknown value.
 
 **CustomVehicleList** ('Customvehicle*'_)
-Unknown value.
+    Unknown value.
 
 **CustomVehicleFreeList** ('Customvehicle*'_)
-Unknown value.
+    Unknown value.
 
 **NumCustomVehicles** ('int'_)
-Unknown value.
+    Unknown value.
 
 **DeadTimestamp** ('Timestamppercent'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('MatFxHandle[16];'_)
-Unknown value.
+    Unknown value.
 
 **CurrentMatFx** ('int'_)
-Unknown value.
+    Unknown value.
 
 **ScriptMode** ('Playerscriptmode'_)
-Unknown value.
+    Unknown value.
 
 **ScriptData** ('Scriptspecificdata'_)
-Unknown value.
+    Unknown value.
 
 **Backpack** ('Void*'_)
-Unknown value.
+    Unknown value.
 
 **MpRespawnBackpackType** ('int'_)
-Unknown value.
+    Unknown value.
 
 **MpCurrentCommand** ('Gamecommand'_)
-Unknown value.
+    Unknown value.
 
 **MpRemotePlayerFiredThisFrame** ('bool'_)
-Unknown value.
+    Unknown value.
 
 **MpCameraPos** ('Vector'_)
-Unknown value.
+    Unknown value.
 
 **MpCameraOrient** ('Matrix'_)
-Unknown value.
+    Unknown value.
 
 **MpCameraAngularVelocity** ('Vector2'_)
-Unknown value.
+    Unknown value.
 
 **MpDesiredWeaponSlot** ('int'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('MpLastRespawnTime;'_)
-Unknown value.
+    Unknown value.
 
 **MpData** ('int'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Multisimstatemp** ('MpDisarmBombHandle;'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('MpSimState;'_)
-Unknown value.
+    Unknown value.
 
 **MpLastSpawnPointHandle** ('int'_)
-Unknown value.
+    Unknown value.
 
 **MpTimeUntilPlayerCanRespawn** ('Multitimestamp'_)
-Unknown value.
+    Unknown value.
 
 **MpTimeUntilPlayerLeavesInvulnerable** ('Multitimestamppercent'_)
-Unknown value.
+    Unknown value.
 
 **Mpswapbackpack** ('Void*'_)
-Unknown value.
+    Unknown value.
 
 **MpPlayerDamageHistory[16]** ('float'_)
-Unknown value.
+    Unknown value.
 
 **MpLadderState** ('Playerladderstate'_)
-Unknown value.
+    Unknown value.
 
 **MpRagdollForce** ('Vector'_)
-Unknown value.
+    Unknown value.
 
 **MpRagdollPos** ('Vector'_)
-Unknown value.
+    Unknown value.
 
 **MpRagdollForceTimeout** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **MpEdgeCorrectionInfo** ('Multiplayeredgecorrectioninfo'_)
-Unknown value.
+    Unknown value.
 
 **MpBlockedInfo** ('Multiplayerblockedinfo'_)
-Unknown value.
+    Unknown value.
 
 **MpRagdollLinearVelocityAggregate** ('Vector'_)
-Unknown value.
+    Unknown value.
 
 **MpRagdollAngularVelocityAggregate** ('Vector'_)
-Unknown value.
+    Unknown value.
 
 **MpSimulationTimeUsed** ('float'_)
-Unknown value.
+    Unknown value.
 
 **MpSimulationTimeAccumulated** ('float'_)
-Unknown value.
+    Unknown value.
 
 **MpSimulationTimeExtrapolated** ('float'_)
-Unknown value.
+    Unknown value.
 
 **JetpackUseLogHandle** ('int'_)
-Unknown value.
+    Unknown value.
 
 **BackpackEquipLogHandle** ('int'_)
-Unknown value.
+    Unknown value.
 
 **DistrictLogHandle** ('int'_)
-Unknown value.
+    Unknown value.
 
 **CameraBoneTransform** ('Matrix43'_)
-Unknown value.
+    Unknown value.
 
 **MovementVelocity** ('Vector'_)
-Unknown value.
+    Unknown value.
 
 **DirectControlDir** ('Vector2'_)
-Unknown value.
+    Unknown value.
 
 **DirectControlVel** ('Vector'_)
-Unknown value.
+    Unknown value.
 
 **CoverCollisionNormal** ('Vector'_)
-Unknown value.
+    Unknown value.
 
 **LastFrameCoverCollisionNormal** ('Vector'_)
-Unknown value.
+    Unknown value.
 
 **CoverTestQueue** ('Playercovertest'_)
-Unknown value.
+    Unknown value.
 
 **CoverDelayTs** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **CoverEnterTs** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **CoverExitDelayTs** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **CoverDiveCapsule** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **CoverLeanDelay** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **CoverRootOffset** ('float'_)
-Unknown value.
+    Unknown value.
 
 **SpinebendRootOffset** ('float'_)
-Unknown value.
+    Unknown value.
 
 **FacialIdle** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **FootstepPropagateTime** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **BumpIntoPropagateTime** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Timestamp** ('AmmoBoxHandle;'_)
-Unknown value.
+    Unknown value.
 
 **Interfacemodes** ('PathfindTimeOut;'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('CurrentInterfaceMode;'_)
-Unknown value.
+    Unknown value.
 
 **CommonControlsAllowed** ('int'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('ControlsGeneralAllowed;'_)
-Unknown value.
+    Unknown value.
 
 **ControlsOnFootAllowed** ('int'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('ControlsDrivingAllowed;'_)
-Unknown value.
+    Unknown value.
 
 **GeneralActionsAllowed** ('int'_)
-Unknown value.
+    Unknown value.
 
 **WeaponSwapTimestamp** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **SprintDelayTimestamp** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **SprintStartTimestamp** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **JumpRefreshTimestamp** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('AllySquadHandle;'_)
-Unknown value.
+    Unknown value.
 
 **EscortSquadHandle** ('int'_)
-Unknown value.
+    Unknown value.
 
 **CheckSquadsTimer** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **PathfindInfo** ('Pathfindnavinfo'_)
-Unknown value.
+    Unknown value.
 
 **BloodDecals** ('Decalcircarrayqueue10'_)
-Unknown value.
+    Unknown value.
 
 **BloodDecalsFadeIndex** ('int'_)
-Unknown value.
+    Unknown value.
 
 **ActivityInventorySaveFile** ('Fileobject*'_)
-Unknown value.
+    Unknown value.
 
 **ActivityInventoryBuffer[1024]** ('char'_)
-Unknown value.
+    Unknown value.
 
 **ZoomCancelTimestamp** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **Int** ('Unsigned'_)
-Unknown value.
+    Unknown value.
 
 **Unsigned** ('NonInventoryItemHandle;'_)
-Unknown value.
+    Unknown value.
 
 **LastVehicleDriven** ('int'_)
-Unknown value.
+    Unknown value.
 
 **QuickTurnOrient** ('Matrix'_)
-Unknown value.
+    Unknown value.
 
 **QuickTurnSpeed** ('float'_)
-Unknown value.
+    Unknown value.
 
 **Metadata** ('Playermetadata'_)
-Unknown value.
+    Unknown value.
 
 **RadiationTimestamp** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **RadiationDamage** ('float'_)
-Unknown value.
+    Unknown value.
 
 **RadiationFoley** ('int'_)
-Unknown value.
+    Unknown value.
 
 **IsStuckTimer** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **LastStuckPos** ('Vector'_)
-Unknown value.
+    Unknown value.
 
 **RagdollOverrideGetUpTime** ('int'_)
-Unknown value.
+    Unknown value.
 
 **FadeBackpackTime** ('Timestamppercent'_)
-Unknown value.
+    Unknown value.
 
 **CommTowerCheckPeriod** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 **Nextrecord** ('int'_)
-Unknown value.
+    Unknown value.
 
 **Positionalrecords[8]** ('Playerpositionalrecord'_)
-Unknown value.
+    Unknown value.
 
 **Trackingperiod** ('Timestamp'_)
-Unknown value.
+    Unknown value.
 
 .. _`float`: ./float.html
 .. _`Useableobject`: ./Useableobject.html
