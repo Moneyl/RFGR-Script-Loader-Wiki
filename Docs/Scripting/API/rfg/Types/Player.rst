@@ -23,40 +23,34 @@ Variables
 **LastFireTime** ('Timestamp'_)
     Unknown value.
 
-**Int** ('Unsigned'_)
+**MpActionObjectHandle** ('unsigned int'_)
     Unknown value.
 
-**Int** ('MpActionObjectHandle;'_)
+**RadioId** ('int'_)
     Unknown value.
 
-**Int** ('RadioId;'_)
+**TagTrigger** ('int'_)
     Unknown value.
 
-**Taggingsequence** ('TagTrigger;'_)
+**TagSeq** ('Taggingsequence'_)
     Unknown value.
 
-**Timestamp** ('TagSeq;'_)
+**TagTimer** ('Timestamp'_)
     Unknown value.
 
-**Int** ('TagTimer;'_)
+**Tageffect** ('int'_)
     Unknown value.
 
-**Hudmessagehandle** ('Tageffect;'_)
+**HudMessage** ('Hudmessagehandle'_)
     Unknown value.
 
-**Unsigned** ('HudMessage;'_)
+**HavokFilterGroup** ('unsigned int'_)
     Unknown value.
 
-**HavokFilterGroup** ('int'_)
+**AimTarget** ('unsigned int'_)
     Unknown value.
 
-**Int** ('Unsigned'_)
-    Unknown value.
-
-**Unsigned** ('AimTarget;'_)
-    Unknown value.
-
-**PenetratingAimTarget** ('int'_)
+**PenetratingAimTarget** ('unsigned int'_)
     Unknown value.
 
 **PenetratingAimPos** ('Vector'_)
@@ -65,73 +59,70 @@ Variables
 **AimTargetDuration** ('Timestamp'_)
     Unknown value.
 
-**Int** ('Unsigned'_)
+**HeatSeekingTarget** ('unsigned int'_)
     Unknown value.
 
-**Vector** ('HeatSeekingTarget;'_)
+**AimPos** ('Vector'_)
     Unknown value.
 
-**Timestamp** ('AimPos;'_)
+**CombatTargetUpdateTime** ('Timestamp'_)
     Unknown value.
 
-**Float** ('CombatTargetUpdateTime;'_)
+**RemoteChargeTime** ('float'_)
     Unknown value.
 
-**Bool** ('RemoteChargeTime;'_)
+**DoingRemoteCharge** ('bool'_)
     Unknown value.
 
-**Playerzoomstate** ('DoingRemoteCharge;'_)
+**ZoomState** ('Playerzoomstate'_)
     Unknown value.
 
-**Playerzoomstate** ('ZoomState;'_)
+**PreviousZoomState** ('Playerzoomstate'_)
     Unknown value.
 
-**Vector** ('PreviousZoomState;'_)
+**CoverVector** ('Vector'_)
     Unknown value.
 
-**Vector** ('CoverVector;'_)
+**CoverVectorRight** ('Vector'_)
     Unknown value.
 
-**Timestamp** ('CoverVectorRight;'_)
+**EnteringCover** ('Timestamp'_)
     Unknown value.
 
-**Timestamp** ('EnteringCover;'_)
+**ExitingCover** ('Timestamp'_)
     Unknown value.
 
-**Float** ('ExitingCover;'_)
+**CoverMoveVel** ('float'_)
     Unknown value.
 
-**Bool** ('CoverMoveVel;'_)
+**CoverApproachingEdge** ('bool'_)
     Unknown value.
 
-**Timestamp** ('CoverApproachingEdge;'_)
+**CoverApproachingEdgeTs** ('Timestamp'_)
     Unknown value.
 
-**Vector** ('CoverApproachingEdgeTs;'_)
+**CoverEdgeHitPos** ('Vector'_)
     Unknown value.
 
-**Vector** ('CoverEdgeHitPos;'_)
+**CoverEdgeMissPos** ('Vector'_)
     Unknown value.
 
-**Vector** ('CoverEdgeMissPos;'_)
+**ThrownWeaponCheckPos** ('Vector'_)
     Unknown value.
 
-**Int** ('ThrownWeaponCheckPos;'_)
+**CombatMoveQueue** ('int'_)
     Unknown value.
 
-**Timestamppercent** ('CombatMoveQueue;'_)
+**PreviousBulletHit** ('Timestamppercent'_)
     Unknown value.
 
-**Float** ('PreviousBulletHit;'_)
+**Jetpackfuelpercent** ('float'_)
     Unknown value.
 
-**Int** ('Jetpackfuelpercent;'_)
+**Jetpackfoley** ('int'_)
     Unknown value.
 
-**Unsigned** ('Jetpackfoley;'_)
-    Unknown value.
-
-**Jetpackeffect** ('int'_)
+**Jetpackeffect** ('unsigned int'_)
     Unknown value.
 
 **Allowragdoll** ('bool'_)
@@ -143,13 +134,10 @@ Variables
 **HoldObjectAvailable** ('bool'_)
     Unknown value.
 
-**Int** ('Unsigned'_)
+**HoldObjectHandle** ('unsigned int'_)
     Unknown value.
 
-**Unsigned** ('HoldObjectHandle;'_)
-    Unknown value.
-
-**AbandonedVehicles[3]** ('int'_)
+**AbandonedVehicles[3]** ('unsigned int'_)
     Unknown value.
 
 **NumAbandonedVehicles** ('int'_)
@@ -170,13 +158,10 @@ Variables
 **DeadTimestamp** ('Timestamppercent'_)
     Unknown value.
 
-**Int** ('Unsigned'_)
+**MatFxHandle[16]** ('unsigned int'_)
     Unknown value.
 
-**Unsigned** ('MatFxHandle[16];'_)
-    Unknown value.
-
-**CurrentMatFx** ('int'_)
+**CurrentMatFx** ('unsigned int'_)
     Unknown value.
 
 **ScriptMode** ('Playerscriptmode'_)
@@ -209,25 +194,19 @@ Variables
 **MpDesiredWeaponSlot** ('int'_)
     Unknown value.
 
-**Int** ('Unsigned'_)
+**MpLastRespawnTime** ('unsigned int'_)
     Unknown value.
 
-**Unsigned** ('MpLastRespawnTime;'_)
+**MpData** ('unsigned int'_)
     Unknown value.
 
-**MpData** ('int'_)
+**MpDisarmBombHandle** ('unsigned int'_)
     Unknown value.
 
-**Int** ('Unsigned'_)
+**MpSimState** ('Multisimstatemp'_)
     Unknown value.
 
-**Multisimstatemp** ('MpDisarmBombHandle;'_)
-    Unknown value.
-
-**Unsigned** ('MpSimState;'_)
-    Unknown value.
-
-**MpLastSpawnPointHandle** ('int'_)
+**MpLastSpawnPointHandle** ('unsigned int'_)
     Unknown value.
 
 **MpTimeUntilPlayerCanRespawn** ('Multitimestamp'_)
@@ -335,37 +314,28 @@ Variables
 **BumpIntoPropagateTime** ('Timestamp'_)
     Unknown value.
 
-**Int** ('Unsigned'_)
+**AmmoBoxHandle** ('unsigned int'_)
     Unknown value.
 
-**Timestamp** ('AmmoBoxHandle;'_)
+**PathfindTimeOut** ('Timestamp'_)
     Unknown value.
 
-**Interfacemodes** ('PathfindTimeOut;'_)
+**CurrentInterfaceMode** ('Interfacemodes'_)
     Unknown value.
 
-**Unsigned** ('CurrentInterfaceMode;'_)
+**CommonControlsAllowed** ('unsigned int'_)
     Unknown value.
 
-**CommonControlsAllowed** ('int'_)
+**ControlsGeneralAllowed** ('unsigned int'_)
     Unknown value.
 
-**Int** ('Unsigned'_)
+**ControlsOnFootAllowed** ('unsigned int'_)
     Unknown value.
 
-**Unsigned** ('ControlsGeneralAllowed;'_)
+**ControlsDrivingAllowed** ('unsigned int'_)
     Unknown value.
 
-**ControlsOnFootAllowed** ('int'_)
-    Unknown value.
-
-**Int** ('Unsigned'_)
-    Unknown value.
-
-**Unsigned** ('ControlsDrivingAllowed;'_)
-    Unknown value.
-
-**GeneralActionsAllowed** ('int'_)
+**GeneralActionsAllowed** ('unsigned int'_)
     Unknown value.
 
 **WeaponSwapTimestamp** ('Timestamp'_)
@@ -380,13 +350,10 @@ Variables
 **JumpRefreshTimestamp** ('Timestamp'_)
     Unknown value.
 
-**Int** ('Unsigned'_)
+**AllySquadHandle** ('unsigned int'_)
     Unknown value.
 
-**Unsigned** ('AllySquadHandle;'_)
-    Unknown value.
-
-**EscortSquadHandle** ('int'_)
+**EscortSquadHandle** ('unsigned int'_)
     Unknown value.
 
 **CheckSquadsTimer** ('Timestamp'_)
@@ -410,13 +377,10 @@ Variables
 **ZoomCancelTimestamp** ('Timestamp'_)
     Unknown value.
 
-**Int** ('Unsigned'_)
+**NonInventoryItemHandle** ('unsigned int'_)
     Unknown value.
 
-**Unsigned** ('NonInventoryItemHandle;'_)
-    Unknown value.
-
-**LastVehicleDriven** ('int'_)
+**LastVehicleDriven** ('unsigned int'_)
     Unknown value.
 
 **QuickTurnOrient** ('Matrix'_)
@@ -464,54 +428,24 @@ Variables
 .. _`float`: ./float.html
 .. _`Useableobject`: ./Useableobject.html
 .. _`Timestamp`: ./Timestamp.html
-.. _`Unsigned`: ./Unsigned.html
-.. _`MpActionObjectHandle;`: ./MpActionObjectHandle;.html
-.. _`RadioId;`: ./RadioId;.html
-.. _`TagTrigger;`: ./TagTrigger;.html
-.. _`TagSeq;`: ./TagSeq;.html
-.. _`TagTimer;`: ./TagTimer;.html
-.. _`Tageffect;`: ./Tageffect;.html
-.. _`HudMessage;`: ./HudMessage;.html
+.. _`unsigned int`: ./unsigned int.html
 .. _`int`: ./int.html
-.. _`AimTarget;`: ./AimTarget;.html
+.. _`Taggingsequence`: ./Taggingsequence.html
+.. _`Hudmessagehandle`: ./Hudmessagehandle.html
 .. _`Vector`: ./Vector.html
-.. _`HeatSeekingTarget;`: ./HeatSeekingTarget;.html
-.. _`AimPos;`: ./AimPos;.html
-.. _`CombatTargetUpdateTime;`: ./CombatTargetUpdateTime;.html
-.. _`RemoteChargeTime;`: ./RemoteChargeTime;.html
-.. _`DoingRemoteCharge;`: ./DoingRemoteCharge;.html
-.. _`ZoomState;`: ./ZoomState;.html
-.. _`PreviousZoomState;`: ./PreviousZoomState;.html
-.. _`CoverVector;`: ./CoverVector;.html
-.. _`CoverVectorRight;`: ./CoverVectorRight;.html
-.. _`EnteringCover;`: ./EnteringCover;.html
-.. _`ExitingCover;`: ./ExitingCover;.html
-.. _`CoverMoveVel;`: ./CoverMoveVel;.html
-.. _`CoverApproachingEdge;`: ./CoverApproachingEdge;.html
-.. _`CoverApproachingEdgeTs;`: ./CoverApproachingEdgeTs;.html
-.. _`CoverEdgeHitPos;`: ./CoverEdgeHitPos;.html
-.. _`CoverEdgeMissPos;`: ./CoverEdgeMissPos;.html
-.. _`ThrownWeaponCheckPos;`: ./ThrownWeaponCheckPos;.html
-.. _`CombatMoveQueue;`: ./CombatMoveQueue;.html
-.. _`PreviousBulletHit;`: ./PreviousBulletHit;.html
-.. _`Jetpackfuelpercent;`: ./Jetpackfuelpercent;.html
-.. _`Jetpackfoley;`: ./Jetpackfoley;.html
 .. _`bool`: ./bool.html
+.. _`Playerzoomstate`: ./Playerzoomstate.html
+.. _`Timestamppercent`: ./Timestamppercent.html
 .. _`Playerflags`: ./Playerflags.html
-.. _`HoldObjectHandle;`: ./HoldObjectHandle;.html
 .. _`Customvehicle`: ./Customvehicle.html
 .. _`Customvehicle*`: ./Customvehicle*.html
-.. _`Timestamppercent`: ./Timestamppercent.html
-.. _`MatFxHandle[16];`: ./MatFxHandle[16];.html
 .. _`Playerscriptmode`: ./Playerscriptmode.html
 .. _`Scriptspecificdata`: ./Scriptspecificdata.html
 .. _`Void*`: ./Void*.html
 .. _`Gamecommand`: ./Gamecommand.html
 .. _`Matrix`: ./Matrix.html
 .. _`Vector2`: ./Vector2.html
-.. _`MpLastRespawnTime;`: ./MpLastRespawnTime;.html
-.. _`MpDisarmBombHandle;`: ./MpDisarmBombHandle;.html
-.. _`MpSimState;`: ./MpSimState;.html
+.. _`Multisimstatemp`: ./Multisimstatemp.html
 .. _`Multitimestamp`: ./Multitimestamp.html
 .. _`Multitimestamppercent`: ./Multitimestamppercent.html
 .. _`Playerladderstate`: ./Playerladderstate.html
@@ -519,16 +453,10 @@ Variables
 .. _`Multiplayerblockedinfo`: ./Multiplayerblockedinfo.html
 .. _`Matrix43`: ./Matrix43.html
 .. _`Playercovertest`: ./Playercovertest.html
-.. _`AmmoBoxHandle;`: ./AmmoBoxHandle;.html
-.. _`PathfindTimeOut;`: ./PathfindTimeOut;.html
-.. _`CurrentInterfaceMode;`: ./CurrentInterfaceMode;.html
-.. _`ControlsGeneralAllowed;`: ./ControlsGeneralAllowed;.html
-.. _`ControlsDrivingAllowed;`: ./ControlsDrivingAllowed;.html
-.. _`AllySquadHandle;`: ./AllySquadHandle;.html
+.. _`Interfacemodes`: ./Interfacemodes.html
 .. _`Pathfindnavinfo`: ./Pathfindnavinfo.html
 .. _`Decalcircarrayqueue10`: ./Decalcircarrayqueue10.html
 .. _`Fileobject*`: ./Fileobject*.html
 .. _`char`: ./char.html
-.. _`NonInventoryItemHandle;`: ./NonInventoryItemHandle;.html
 .. _`Playermetadata`: ./Playermetadata.html
 .. _`Playerpositionalrecord`: ./Playerpositionalrecord.html
