@@ -31,7 +31,7 @@ class StructInfo:
             "unsigned int", "int", "unsigned long", "long", "float", "char",
             "unsigned char", "signed char", "short", "unsigned short",
             "string", "std::string", "unsigned int16", "int16", "bool",
-            "unsigned int8", "int8", "void*"
+            "unsigned int8", "int8", "void*", "String"
         ]
 
     def Print(self):
@@ -144,7 +144,10 @@ with open("./" + Struct.Name + ".rst", 'w') as Out:
     
     # Write out links at the bottom for type pages. Assumes page has same name as type
     for Type in Struct.Types:
-        Out.write(f".. _`{Type}`: ./{Type}.html\n")
+        if Type not in Struct.ExemptTypes:
+            Out.write(f".. _`{Type}`: ./{Type}.html\n")
+        else:
+            Out.write(f".. _`{Type}`: ./PrimitiveTypes.html\n")
     
     # Write parent class link if valid
     if Struct.Parent is not None:
