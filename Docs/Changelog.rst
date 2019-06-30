@@ -13,6 +13,10 @@ Changes
 - Several additions to the general tweaks menu: AI ignore player, disable player ragdoll, salvage count, ore count, supply crate count.
 - Added "High LOD far clip distance" setting to camera menu. For best results set both this and the normal far clip distance setting to higher values (anything above 1200 makes no difference). Increases distance you can see terrain shadows and makes distant terrain look slightly better.
 - Added several more error checks when starting the script loader. It will detect some common installation mistakes, warn you about them and shutdown until you've fixed it.
+- Inline error markers when you run scripts in the editor
+- Syntax highlighting and type tooltip info support in the script editor. Loads type definitions from ``/Settings/LanguageConfig.json``. It has some limitations but will still be useful. I've only added a few types to save time. I'd greatly appreciate if anyone could go through the documentation and add entries for each type and function to this file which I'd include in the next release.
+- Added information bar at the top of the script editor that shows info such as line and column number, and what typing mode you're in (insert, caps lock, etc).
+- When running scripts through the editor it will now check for syntax errors before running your script, then run it if none are detected. 
 
 Fixes
 -------------------------------------------------------
