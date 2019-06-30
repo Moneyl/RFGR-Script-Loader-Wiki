@@ -416,7 +416,7 @@ Variables
 **CommTowerCheckPeriod** (`Timestamp`_)
     Unknown value.
 
-**Nextrecord** (`int`_)
+**NextRecord** (`int`_)
     Unknown value.
 
 **PositionalRecords[8]** (`PlayerPositionalRecord`_)
@@ -425,15 +425,15 @@ Variables
 **TrackingPeriod** (`Timestamp`_)
     Unknown value.
 
-.. _`float`: ./float.html
+.. _`float`: ./PrimitiveTypes.html
 .. _`UseableObject`: ./UseableObject.html
 .. _`Timestamp`: ./Timestamp.html
-.. _`unsigned int`: ./unsigned int.html
-.. _`int`: ./int.html
+.. _`unsigned int`: ./PrimitiveTypes.html
+.. _`int`: ./PrimitiveTypes.html
 .. _`TaggingSequence`: ./TaggingSequence.html
 .. _`HudMessageHandle`: ./HudMessageHandle.html
 .. _`Vector`: ./Vector.html
-.. _`bool`: ./bool.html
+.. _`bool`: ./PrimitiveTypes.html
 .. _`PlayerZoomState`: ./PlayerZoomState.html
 .. _`TimestampPercent`: ./TimestampPercent.html
 .. _`PlayerFlags`: ./PlayerFlags.html
@@ -441,7 +441,7 @@ Variables
 .. _`CustomVehicle*`: ./CustomVehicle*.html
 .. _`PlayerScriptMode`: ./PlayerScriptMode.html
 .. _`ScriptSpecificData`: ./ScriptSpecificData.html
-.. _`void*`: ./void*.html
+.. _`void*`: ./PrimitiveTypes.html
 .. _`GameCommand`: ./GameCommand.html
 .. _`Matrix`: ./Matrix.html
 .. _`Vector2`: ./Vector2.html
@@ -457,7 +457,7 @@ Variables
 .. _`PathfindNavInfo`: ./PathfindNavInfo.html
 .. _`DecalCircArrayQueue10`: ./DecalCircArrayQueue10.html
 .. _`FileObject*`: ./FileObject*.html
-.. _`char`: ./char.html
+.. _`char`: ./PrimitiveTypes.html
 .. _`PlayerMetadata`: ./PlayerMetadata.html
 .. _`PlayerPositionalRecord`: ./PlayerPositionalRecord.html
 .. _`Human`: ./Human.html
