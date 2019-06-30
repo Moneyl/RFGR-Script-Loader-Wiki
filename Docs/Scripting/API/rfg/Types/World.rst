@@ -25,7 +25,7 @@ Variables
     Unknown value.
 
 **AllObjects** (`Rfg::BaseArray<Object*>`_)
-    Unknown value.
+    List of all objects in the game world.
 
 **TechLevel** (`float`_)
     Unknown value.
