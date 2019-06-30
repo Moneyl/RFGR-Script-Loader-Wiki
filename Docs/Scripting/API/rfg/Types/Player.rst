@@ -11,10 +11,10 @@ Inherits `Human`_
 Variables
 ========================================================
 
-**Frametimemultiplier** (`float`_)
+**FrametimeMultiplier** (`float`_)
     Unknown value.
 
-**ActionObject** (`Useableobject`_)
+**ActionObject** (`UseableObject`_)
     Unknown value.
 
 **ActionObjectTimestamp** (`Timestamp`_)
@@ -32,16 +32,16 @@ Variables
 **TagTrigger** (`int`_)
     Unknown value.
 
-**TagSeq** (`Taggingsequence`_)
+**TagSeq** (`TaggingSequence`_)
     Unknown value.
 
 **TagTimer** (`Timestamp`_)
     Unknown value.
 
-**Tageffect** (`int`_)
+**TagEffect** (`int`_)
     Unknown value.
 
-**HudMessage** (`Hudmessagehandle`_)
+**HudMessage** (`HudMessageHandle`_)
     Unknown value.
 
 **HavokFilterGroup** (`unsigned int`_)
@@ -74,10 +74,10 @@ Variables
 **DoingRemoteCharge** (`bool`_)
     Unknown value.
 
-**ZoomState** (`Playerzoomstate`_)
+**ZoomState** (`PlayerZoomState`_)
     Unknown value.
 
-**PreviousZoomState** (`Playerzoomstate`_)
+**PreviousZoomState** (`PlayerZoomState`_)
     Unknown value.
 
 **CoverVector** (`Vector`_)
@@ -113,22 +113,22 @@ Variables
 **CombatMoveQueue** (`int`_)
     Unknown value.
 
-**PreviousBulletHit** (`Timestamppercent`_)
+**PreviousBulletHit** (`TimestampPercent`_)
     Unknown value.
 
-**Jetpackfuelpercent** (`float`_)
+**JetpackFuelPercent** (`float`_)
     Unknown value.
 
-**Jetpackfoley** (`int`_)
+**JetpackFoley** (`int`_)
     Unknown value.
 
-**Jetpackeffect** (`unsigned int`_)
+**JetpackEffect** (`unsigned int`_)
     Unknown value.
 
-**Allowragdoll** (`bool`_)
+**AllowRagdoll** (`bool`_)
     Unknown value.
 
-**Pflags** (`Playerflags`_)
+**PFlags** (`PlayerFlags`_)
     Unknown value.
 
 **HoldObjectAvailable** (`bool`_)
@@ -143,19 +143,19 @@ Variables
 **NumAbandonedVehicles** (`int`_)
     Unknown value.
 
-**CustomVehicles[50]** (`Customvehicle`_)
+**CustomVehicles[50]** (`CustomVehicle`_)
     Unknown value.
 
-**CustomVehicleList** (`Customvehicle*`_)
+**CustomVehicleList** (`CustomVehicle*`_)
     Unknown value.
 
-**CustomVehicleFreeList** (`Customvehicle*`_)
+**CustomVehicleFreeList** (`CustomVehicle*`_)
     Unknown value.
 
 **NumCustomVehicles** (`int`_)
     Unknown value.
 
-**DeadTimestamp** (`Timestamppercent`_)
+**DeadTimestamp** (`TimestampPercent`_)
     Unknown value.
 
 **MatFxHandle[16]** (`unsigned int`_)
@@ -164,19 +164,19 @@ Variables
 **CurrentMatFx** (`unsigned int`_)
     Unknown value.
 
-**ScriptMode** (`Playerscriptmode`_)
+**ScriptMode** (`PlayerScriptMode`_)
     Unknown value.
 
-**ScriptData** (`Scriptspecificdata`_)
+**ScriptData** (`ScriptSpecificData`_)
     Unknown value.
 
-**Backpack** (`Void*`_)
+**Backpack** (`void*`_)
     Unknown value.
 
 **MpRespawnBackpackType** (`int`_)
     Unknown value.
 
-**MpCurrentCommand** (`Gamecommand`_)
+**MpCurrentCommand** (`GameCommand`_)
     Unknown value.
 
 **MpRemotePlayerFiredThisFrame** (`bool`_)
@@ -203,25 +203,25 @@ Variables
 **MpDisarmBombHandle** (`unsigned int`_)
     Unknown value.
 
-**MpSimState** (`Multisimstatemp`_)
+**MpSimState** (`MultiSimStateMp`_)
     Unknown value.
 
 **MpLastSpawnPointHandle** (`unsigned int`_)
     Unknown value.
 
-**MpTimeUntilPlayerCanRespawn** (`Multitimestamp`_)
+**MpTimeUntilPlayerCanRespawn** (`MultiTimestamp`_)
     Unknown value.
 
-**MpTimeUntilPlayerLeavesInvulnerable** (`Multitimestamppercent`_)
+**MpTimeUntilPlayerLeavesInvulnerable** (`MultiTimestampPercent`_)
     Unknown value.
 
-**Mpswapbackpack** (`Void*`_)
+**Mpswapbackpack** (`void*`_)
     Unknown value.
 
 **MpPlayerDamageHistory[16]** (`float`_)
     Unknown value.
 
-**MpLadderState** (`Playerladderstate`_)
+**MpLadderState** (`PlayerLadderState`_)
     Unknown value.
 
 **MpRagdollForce** (`Vector`_)
@@ -233,10 +233,10 @@ Variables
 **MpRagdollForceTimeout** (`Timestamp`_)
     Unknown value.
 
-**MpEdgeCorrectionInfo** (`Multiplayeredgecorrectioninfo`_)
+**MpEdgeCorrectionInfo** (`MultiplayerEdgeCorrectionInfo`_)
     Unknown value.
 
-**MpBlockedInfo** (`Multiplayerblockedinfo`_)
+**MpBlockedInfo** (`MultiplayerBlockedInfo`_)
     Unknown value.
 
 **MpRagdollLinearVelocityAggregate** (`Vector`_)
@@ -281,7 +281,7 @@ Variables
 **LastFrameCoverCollisionNormal** (`Vector`_)
     Unknown value.
 
-**CoverTestQueue** (`Playercovertest`_)
+**CoverTestQueue** (`PlayerCoverTest`_)
     Unknown value.
 
 **CoverDelayTs** (`Timestamp`_)
@@ -320,7 +320,7 @@ Variables
 **PathfindTimeOut** (`Timestamp`_)
     Unknown value.
 
-**CurrentInterfaceMode** (`Interfacemodes`_)
+**CurrentInterfaceMode** (`InterfaceModes`_)
     Unknown value.
 
 **CommonControlsAllowed** (`unsigned int`_)
@@ -359,16 +359,16 @@ Variables
 **CheckSquadsTimer** (`Timestamp`_)
     Unknown value.
 
-**PathfindInfo** (`Pathfindnavinfo`_)
+**PathfindInfo** (`PathfindNavInfo`_)
     Unknown value.
 
-**BloodDecals** (`Decalcircarrayqueue10`_)
+**BloodDecals** (`DecalCircArrayQueue10`_)
     Unknown value.
 
 **BloodDecalsFadeIndex** (`int`_)
     Unknown value.
 
-**ActivityInventorySaveFile** (`Fileobject*`_)
+**ActivityInventorySaveFile** (`FileObject*`_)
     Unknown value.
 
 **ActivityInventoryBuffer[1024]** (`char`_)
@@ -389,7 +389,7 @@ Variables
 **QuickTurnSpeed** (`float`_)
     Unknown value.
 
-**Metadata** (`Playermetadata`_)
+**Metadata** (`PlayerMetadata`_)
     Unknown value.
 
 **RadiationTimestamp** (`Timestamp`_)
@@ -410,7 +410,7 @@ Variables
 **RagdollOverrideGetUpTime** (`int`_)
     Unknown value.
 
-**FadeBackpackTime** (`Timestamppercent`_)
+**FadeBackpackTime** (`TimestampPercent`_)
     Unknown value.
 
 **CommTowerCheckPeriod** (`Timestamp`_)
@@ -419,44 +419,45 @@ Variables
 **Nextrecord** (`int`_)
     Unknown value.
 
-**Positionalrecords[8]** (`Playerpositionalrecord`_)
+**PositionalRecords[8]** (`PlayerPositionalRecord`_)
     Unknown value.
 
-**Trackingperiod** (`Timestamp`_)
+**TrackingPeriod** (`Timestamp`_)
     Unknown value.
 
 .. _`float`: ./float.html
-.. _`Useableobject`: ./Useableobject.html
+.. _`UseableObject`: ./UseableObject.html
 .. _`Timestamp`: ./Timestamp.html
 .. _`unsigned int`: ./unsigned int.html
 .. _`int`: ./int.html
-.. _`Taggingsequence`: ./Taggingsequence.html
-.. _`Hudmessagehandle`: ./Hudmessagehandle.html
+.. _`TaggingSequence`: ./TaggingSequence.html
+.. _`HudMessageHandle`: ./HudMessageHandle.html
 .. _`Vector`: ./Vector.html
 .. _`bool`: ./bool.html
-.. _`Playerzoomstate`: ./Playerzoomstate.html
-.. _`Timestamppercent`: ./Timestamppercent.html
-.. _`Playerflags`: ./Playerflags.html
-.. _`Customvehicle`: ./Customvehicle.html
-.. _`Customvehicle*`: ./Customvehicle*.html
-.. _`Playerscriptmode`: ./Playerscriptmode.html
-.. _`Scriptspecificdata`: ./Scriptspecificdata.html
-.. _`Void*`: ./Void*.html
-.. _`Gamecommand`: ./Gamecommand.html
+.. _`PlayerZoomState`: ./PlayerZoomState.html
+.. _`TimestampPercent`: ./TimestampPercent.html
+.. _`PlayerFlags`: ./PlayerFlags.html
+.. _`CustomVehicle`: ./CustomVehicle.html
+.. _`CustomVehicle*`: ./CustomVehicle*.html
+.. _`PlayerScriptMode`: ./PlayerScriptMode.html
+.. _`ScriptSpecificData`: ./ScriptSpecificData.html
+.. _`void*`: ./void*.html
+.. _`GameCommand`: ./GameCommand.html
 .. _`Matrix`: ./Matrix.html
 .. _`Vector2`: ./Vector2.html
-.. _`Multisimstatemp`: ./Multisimstatemp.html
-.. _`Multitimestamp`: ./Multitimestamp.html
-.. _`Multitimestamppercent`: ./Multitimestamppercent.html
-.. _`Playerladderstate`: ./Playerladderstate.html
-.. _`Multiplayeredgecorrectioninfo`: ./Multiplayeredgecorrectioninfo.html
-.. _`Multiplayerblockedinfo`: ./Multiplayerblockedinfo.html
+.. _`MultiSimStateMp`: ./MultiSimStateMp.html
+.. _`MultiTimestamp`: ./MultiTimestamp.html
+.. _`MultiTimestampPercent`: ./MultiTimestampPercent.html
+.. _`PlayerLadderState`: ./PlayerLadderState.html
+.. _`MultiplayerEdgeCorrectionInfo`: ./MultiplayerEdgeCorrectionInfo.html
+.. _`MultiplayerBlockedInfo`: ./MultiplayerBlockedInfo.html
 .. _`Matrix43`: ./Matrix43.html
-.. _`Playercovertest`: ./Playercovertest.html
-.. _`Interfacemodes`: ./Interfacemodes.html
-.. _`Pathfindnavinfo`: ./Pathfindnavinfo.html
-.. _`Decalcircarrayqueue10`: ./Decalcircarrayqueue10.html
-.. _`Fileobject*`: ./Fileobject*.html
+.. _`PlayerCoverTest`: ./PlayerCoverTest.html
+.. _`InterfaceModes`: ./InterfaceModes.html
+.. _`PathfindNavInfo`: ./PathfindNavInfo.html
+.. _`DecalCircArrayQueue10`: ./DecalCircArrayQueue10.html
+.. _`FileObject*`: ./FileObject*.html
 .. _`char`: ./char.html
-.. _`Playermetadata`: ./Playermetadata.html
-.. _`Playerpositionalrecord`: ./Playerpositionalrecord.html
+.. _`PlayerMetadata`: ./PlayerMetadata.html
+.. _`PlayerPositionalRecord`: ./PlayerPositionalRecord.html
+.. _`Human`: ./Human.html
