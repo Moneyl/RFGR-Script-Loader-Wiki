@@ -4,9 +4,9 @@
 
 Player
 ********************************************************
-Type description goes here.
+Holds the variables representing a player. You can use ``rfg.ActivePlayer`` to easily access the current player. This only becomes available after a save is loaded. This type is an `Object`_ since it inherits `Human`_ which inherits `Object`_.
 
-Inherits `Human`_
+Inherits `Human`_, which inherits `Object`_
 
 Variables
 ========================================================
@@ -23,16 +23,13 @@ Variables
 **LastFireTime** (`Timestamp`_)
     Unknown value.
 
-**MpActionObjectHandle** (`unsigned int`_)
-    Unknown value.
-
 **RadioId** (`int`_)
     Unknown value.
 
 **TagTrigger** (`int`_)
     Unknown value.
 
-**TagSeq** (`TaggingSequence`_)
+**TagSeq** (`TaggingSequences`_)
     Unknown value.
 
 **TagTimer** (`Timestamp`_)
@@ -137,22 +134,7 @@ Variables
 **HoldObjectHandle** (`unsigned int`_)
     Unknown value.
 
-**AbandonedVehicles[3]** (`unsigned int`_)
-    Unknown value.
-
 **NumAbandonedVehicles** (`int`_)
-    Unknown value.
-
-**CustomVehicles[50]** (`CustomVehicle`_)
-    Unknown value.
-
-**CustomVehicleList** (`CustomVehicle*`_)
-    Unknown value.
-
-**CustomVehicleFreeList** (`CustomVehicle*`_)
-    Unknown value.
-
-**NumCustomVehicles** (`int`_)
     Unknown value.
 
 **DeadTimestamp** (`TimestampPercent`_)
@@ -168,90 +150,6 @@ Variables
     Unknown value.
 
 **ScriptData** (`ScriptSpecificData`_)
-    Unknown value.
-
-**Backpack** (`void*`_)
-    Unknown value.
-
-**MpRespawnBackpackType** (`int`_)
-    Unknown value.
-
-**MpCurrentCommand** (`GameCommand`_)
-    Unknown value.
-
-**MpRemotePlayerFiredThisFrame** (`bool`_)
-    Unknown value.
-
-**MpCameraPos** (`Vector`_)
-    Unknown value.
-
-**MpCameraOrient** (`Matrix`_)
-    Unknown value.
-
-**MpCameraAngularVelocity** (`Vector2`_)
-    Unknown value.
-
-**MpDesiredWeaponSlot** (`int`_)
-    Unknown value.
-
-**MpLastRespawnTime** (`unsigned int`_)
-    Unknown value.
-
-**MpData** (`unsigned int`_)
-    Unknown value.
-
-**MpDisarmBombHandle** (`unsigned int`_)
-    Unknown value.
-
-**MpSimState** (`MultiSimStateMp`_)
-    Unknown value.
-
-**MpLastSpawnPointHandle** (`unsigned int`_)
-    Unknown value.
-
-**MpTimeUntilPlayerCanRespawn** (`MultiTimestamp`_)
-    Unknown value.
-
-**MpTimeUntilPlayerLeavesInvulnerable** (`MultiTimestampPercent`_)
-    Unknown value.
-
-**Mpswapbackpack** (`void*`_)
-    Unknown value.
-
-**MpPlayerDamageHistory[16]** (`float`_)
-    Unknown value.
-
-**MpLadderState** (`PlayerLadderState`_)
-    Unknown value.
-
-**MpRagdollForce** (`Vector`_)
-    Unknown value.
-
-**MpRagdollPos** (`Vector`_)
-    Unknown value.
-
-**MpRagdollForceTimeout** (`Timestamp`_)
-    Unknown value.
-
-**MpEdgeCorrectionInfo** (`MultiplayerEdgeCorrectionInfo`_)
-    Unknown value.
-
-**MpBlockedInfo** (`MultiplayerBlockedInfo`_)
-    Unknown value.
-
-**MpRagdollLinearVelocityAggregate** (`Vector`_)
-    Unknown value.
-
-**MpRagdollAngularVelocityAggregate** (`Vector`_)
-    Unknown value.
-
-**MpSimulationTimeUsed** (`float`_)
-    Unknown value.
-
-**MpSimulationTimeAccumulated** (`float`_)
-    Unknown value.
-
-**MpSimulationTimeExtrapolated** (`float`_)
     Unknown value.
 
 **JetpackUseLogHandle** (`int`_)
@@ -362,13 +260,7 @@ Variables
 **PathfindInfo** (`PathfindNavInfo`_)
     Unknown value.
 
-**BloodDecals** (`DecalCircArrayQueue10`_)
-    Unknown value.
-
 **BloodDecalsFadeIndex** (`int`_)
-    Unknown value.
-
-**ActivityInventorySaveFile** (`FileObject*`_)
     Unknown value.
 
 **ActivityInventoryBuffer[1024]** (`char`_)
@@ -430,7 +322,8 @@ Variables
 .. _`Timestamp`: ./Timestamp.html
 .. _`unsigned int`: ./PrimitiveTypes.html
 .. _`int`: ./PrimitiveTypes.html
-.. _`TaggingSequence`: ./TaggingSequence.html
+.. _`TaggingSequences`: ./TaggingSequences.html
+.. _`TaggingSequence`: ./TaggingSequences.html
 .. _`HudMessageHandle`: ./HudMessageHandle.html
 .. _`Vector`: ./Vector.html
 .. _`bool`: ./PrimitiveTypes.html
@@ -461,3 +354,4 @@ Variables
 .. _`PlayerMetadata`: ./PlayerMetadata.html
 .. _`PlayerPositionalRecord`: ./PlayerPositionalRecord.html
 .. _`Human`: ./Human.html
+.. _`Object`: ./Object.html
