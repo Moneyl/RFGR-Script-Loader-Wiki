@@ -4,3 +4,7 @@
 Docs/_build/
 
 \.vscode/
+
+Tools/Player\.rst
+
+Tools/TestFile\.h
