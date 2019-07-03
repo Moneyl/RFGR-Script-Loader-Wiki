@@ -1,4 +1,3 @@
-
 .. attention:: This page is incomplete and needs better descriptions and research into the behavior of the variables.
 
 
@@ -13,51 +12,51 @@ Variables
     Unknown value.
 
 **LevelAmbient** (`Vector`_)
-    Unknown value.
+    The ambient light color of the environment.
 
 **LevelBackAmbient** (`Vector`_)
-    Unknown value.
+    A secondary ambient light color of the environment.
 
-**LastLoadedTerritory[64]** (`char`_)
+**LastLoadedTerritory** (`char[64]`_)
     Unknown value.
 
 **MaxWorldObjects** (`int`_)
-    Unknown value.
+    The maximum number of objects the game world can support.
 
-**AllObjects** (`Rfg::BaseArray<Object*>`_)
-    List of all objects in the game world.
+**AllObjects** (`BaseArray<Object*>`_)
+    An array containing all of the objects in the game world. You can iterate through this and filter objects by type to interact with the game world. When iterating through the list be sure to check if each object is ``nil`` before accessing it to avoid errors.
 
 **TechLevel** (`float`_)
-    Unknown value.
+    The current tech level, used to determine the weapons used by NPCs.
 
 **TechLevelMax** (`float`_)
-    Unknown value.
+    The maximum tech level possible.
 
 **FlaggedObjects** (`Object*`_)
-    Unknown value.
+    Unknown value. Possibly an array of flagged objects that the game uses. May be ``nil``.
 
 **CurrentFlaggedObject** (`Object*`_)
-    Unknown value.
+    Unknown value. May be ``nil``.
 
 **CurrentFlaggedMode** (`char`_)
+    Unknown value. Likely related to the previous two variables.
+
+**DeserializeList** (`char[144]`_)
     Unknown value.
 
-**DeserializeList[144]** (`char`_)
-    Unknown value.
-
-**CurWorldState** (`WorldStateMode`_)
+**CurWorldState** (`WorldStateModes`_)
     Unknown value.
 
 **SlFlags** (`SaveLoadInfo`_)
-    Unknown value.
+     Flags used by the game to determine the right behavior when loading/saving the game. Such as if it should use the reset destruction feature on next load.
 
 **PendingGameSaveSlot** (`GameSaveInfo*`_)
-    Unknown value.
+    Info about the game state which would be stored in a save game if you save. Things like the number of missions completed or hours played. May be ``nil``.
 
 **DlcBundleId** (`int`_)
     Unknown value.
 
-**PendingFilename[64]** (`char`_)
+**PendingFilename** (`char[64]`_)
     Unknown value.
 
 **PendingGameLoadWarpToPos** (`Vector`_)
@@ -66,17 +65,14 @@ Variables
 **PendingGameLoadWarpToOrient** (`Matrix`_)
     Unknown value.
 
-**Grid** (`StreamGrid*`_)
-    Unknown value.
-
 **StreamPos** (`Vector`_)
     Unknown value.
 
 **NumTerritoryZones** (`int`_)
     Unknown value.
 
-**GlobalZoneGrid[257]** (`WorldZone*`_)
-    Unknown value.
+**GlobalZoneGrid** (`WorldZone*[257]`_)
+    Unknown value. May be ``nil``.
 
 **IsTerritory** (`bool`_)
     Unknown value.
@@ -85,7 +81,7 @@ Variables
     Unknown value.
 
 **NumStreamingObjects** (`int`_)
-    Unknown value.
+    The number of objects currently being streamed in by the game.
 
 **StubSerializationInProgress** (`bool`_)
     Unknown value.
@@ -93,13 +89,16 @@ Variables
 .. _`bool`: ./PrimitiveTypes.html
 .. _`Vector`: ./Vector.html
 .. _`char`: ./PrimitiveTypes.html
+.. _`char[64]`: ./PrimitiveTypes.html
+.. _`char[144]`: ./PrimitiveTypes.html
 .. _`int`: ./PrimitiveTypes.html
-.. _`Rfg::BaseArray<Object*>`: ./Rfg::BaseArray<Object*>.html
+.. _`BaseArray<Object*>`: ./BaseArray.html
 .. _`float`: ./PrimitiveTypes.html
-.. _`Object*`: ./Object*.html
-.. _`WorldStateMode`: ./WorldStateMode.html
+.. _`Object*`: ./Object.html
+.. _`WorldStateModes`: ./WorldStateModes.html
 .. _`SaveLoadInfo`: ./SaveLoadInfo.html
-.. _`GameSaveInfo*`: ./GameSaveInfo*.html
+.. _`GameSaveInfo*`: ./GameSaveInfo.html
 .. _`Matrix`: ./Matrix.html
-.. _`StreamGrid*`: ./StreamGrid*.html
-.. _`WorldZone*`: ./WorldZone*.html
+.. _`StreamGrid*`: ./StreamGrid.html
+.. _`WorldZone*`: ./WorldZone.html
+.. _`WorldZone*[257]`: ./WorldZone.html
