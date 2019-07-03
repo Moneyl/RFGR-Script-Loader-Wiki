@@ -31,7 +31,8 @@ class StructInfo:
             "unsigned int", "int", "unsigned long", "long", "float", "char",
             "unsigned char", "signed char", "short", "unsigned short",
             "string", "std::string", "unsigned int16", "int16", "bool",
-            "unsigned int8", "int8", "void*", "String", "unsigned __int32"
+            "unsigned int8", "int8", "void*", "String", "unsigned __int32",
+            "char*"
         ]
 
     def Print(self):
