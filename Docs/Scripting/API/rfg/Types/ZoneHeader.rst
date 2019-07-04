@@ -19,7 +19,7 @@ Variables
     The number of objects in this zone when it's unaltered.
 
 **NumHandles** (`int`_)
-    The number of handles in this zone when it's unaltered. It's unknown what handles are and what they're purpose is.
+    The number of handles in this zone when it's unaltered. Object handles can be used to reference an object. You can get an object using it's handle by passing it's handle to ``rfg.GetObject``, which has two overloads. One which takes an objects name, a `string`_, and one that takes an objects handle, an `unsigned int`_.
 
 **DistrictHash** (`unsigned int`_)
     Likely a hash of the zones district name. Unconfirmed.
@@ -28,5 +28,6 @@ Variables
     Stores flags determining the zones state or behavior. Exact values and uses unknown.
 
 .. _`unsigned int`: ./PrimitiveTypes.html
+.. _`string`: ./PrimitiveTypes.html
 .. _`int`: ./PrimitiveTypes.html
 .. _`WorldZone`: ./WorldZone.html
