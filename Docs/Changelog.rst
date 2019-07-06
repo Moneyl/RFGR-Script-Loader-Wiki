@@ -18,11 +18,12 @@ Changes
 - Added information bar at the top of the script editor that shows info such as line and column number, and what typing mode you're in (insert, caps lock, etc).
 - When running scripts through the editor it will now check for syntax errors before running your script, then run it if none are detected. 
 - The script editor is now more performant with larger scripts. The colorization code was made more efficient.
+- Moved explosion spawner to it's own menu. Now lets you copy values from the games pre-existing explosions (rpg, mine, tank shell, etc), and has a list of the games visual effects and their IDs so you no longer need to guess them.
 
 Fixes
 -------------------------------------------------------
-- Fixed weapon lockers and crates freezing the player until reload.
-- Attempted a fix on issues surrounding custom explosion spawning. For best results you shouldn't change the "Unique ID" setting.
+- Fixed weapon lockers and crates freezing player movement until reload.
+- Most issues with explosion spawning should be fixed with the new explosions spawner menu and explosion presets.
 - Fixed an issue with the script editor not properly adding the ".lua" extension when saving a file for the first time, and added a few checks to prevent accidental overwrites.
 - Updated the script editor to fix a bug causing improper cursor placement.
 
