@@ -19,6 +19,7 @@ Changes
 - When running scripts through the editor it will now check for syntax errors before running your script, then run it if none are detected. 
 - The script editor is now more performant with larger scripts. The colorization code was made more efficient.
 - Moved explosion spawner to it's own menu. Now lets you copy values from the games pre-existing explosions (rpg, mine, tank shell, etc), and has a list of the games visual effects and their IDs so you no longer need to guess them.
+- Changed the lua console shortcut to F4 since the old shortcut stopped the use of tilde in the script editor and is a pain to access on some keyboards.
 
 Fixes
 -------------------------------------------------------
