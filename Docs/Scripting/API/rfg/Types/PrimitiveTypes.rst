@@ -53,6 +53,8 @@ String
 ========================================================
 A string is an array of characters. Declaring an array should be done by surrounding a value with quotation marks, like so:
 
+.. note:: ``const char*`` types can generally be treated as strings.
+
 .. code-block:: lua
 
     MyString = "Hello World!"
