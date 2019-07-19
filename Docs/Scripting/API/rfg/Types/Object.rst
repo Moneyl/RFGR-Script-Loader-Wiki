@@ -76,10 +76,10 @@ Variables
     Used by the game to track the objects subtype. Exact usage/purpose unknown.
 
 **Type** (`char`_)
-    The objects type. Should match one of the values in ``rfg.ObjectTypes`` a table of object types and their corresponding integer values.
+    The objects type. Should match one of the values in `rfg.ObjectTypes`_ a table of object types and their corresponding integer values.
 
 **SubType** (`char`_)
-    The objects subtype. Should match one of the values in ``rfg.ObjectSubTypes`` a table of object subtypes and their corresponding integer values.
+    The objects subtype. Should match one of the values in `rfg.ObjectSubTypes`_ a table of object subtypes and their corresponding integer values.
 
 **LastKnownBMin** (`Vector`_)
     One corner of the objects bounding box. A 3D point.
@@ -122,3 +122,5 @@ Functions
 .. _`int`: ./PrimitiveTypes.html
 .. _`int16`: ./PrimitiveTypes.html
 .. _`char`: ./PrimitiveTypes.html
+.. _`rfg.ObjectTypes`: ./ObjectTypes.html
+.. _`rfg.ObjectSubTypes`: ./ObjectSubTypes.html

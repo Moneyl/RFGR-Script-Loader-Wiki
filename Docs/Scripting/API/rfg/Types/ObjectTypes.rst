@@ -12,7 +12,7 @@ These values are used to differentiate each object type from each other. These a
             HumanCount = HumanCount + 1
         end
     end
-    rsl.Log("Number of human objects found: " .. tostring(HumanCount))
+    rsl.Log("Number of human objects found: {}\n", HumanCount)
 
 ====================== ========================================= ==========
 Object Type            Access Variable                           Value     
@@ -70,7 +70,7 @@ BftpNode               ``rfg.ObjectTypes.BftpNode``              49
 AirstrikeDefenseNode   ``rfg.ObjectTypes.AirstrikeDefenseNode``  50           
 UpgradeNode            ``rfg.ObjectTypes.UpgradeNode``           51  
 AreaDefenseNode        ``rfg.ObjectTypes.AreaDefenseNode``       52      
-Undefined              ``rfg.ObjectTypes.Undefined``             4294967295          
+N/A                    ``rfg.ObjectTypes.Undefined``             4294967295          
 ====================== ========================================= ==========
 
 .. _`Object`: ./Object.html
