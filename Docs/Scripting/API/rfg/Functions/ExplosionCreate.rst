@@ -11,6 +11,16 @@ Spawns an explosion.
 
 Alternative:
 
+- `ExplosionInfo`_ **Info**: The properties of the explosion to be spawned. You can use `rfg.GetExplosionInfo`_ to get one of the games explosion presets, or iterate the preset list as shown in the `explosion examples`_.
+
+- `float`_ **x**: The x position to spawn the explosion in.
+
+- `float`_ **y**: The y position to spawn the explosion in.
+
+- `float`_ **z**: The z position to spawn the explosion in.
+
+Alternative:
+
 - `ExplosionInfo`_ **Info**: The properties of the explosion to be spawned.
 
 - `Object`_ **Source**: The source of the explosion.
