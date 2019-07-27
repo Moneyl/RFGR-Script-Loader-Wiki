@@ -9,10 +9,13 @@ Keyboard Shortcuts
 - ``F1`` - Toggle RSL overlay
 - ``F2`` - Toggle script editor
 - ``Hold F3`` - Deactivate RSL
-- ``~ (Tilde)`` - Toggle lua console
+- ``F4`` - Toggle lua console
+- ``F5`` - Run current script editor script
 - ``Numpad 1`` - Toggle game hud
 - ``Numpad 2`` - Toggle fog
 - ``Numpad 3`` - Toggle free cam
+- ``Numpad 4`` - Lock object in crossharis to introspection menu
+- ``Numpad 5`` - Ragdoll player
 
 Menus
 ========================================================

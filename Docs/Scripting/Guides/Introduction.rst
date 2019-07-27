@@ -63,7 +63,7 @@ Note that if you tried accessing a human specific variable (or other derived typ
         end
     end
 
-.. important:: As of release 0.4.0 not all object types have been bound to lua yet due to time constraints. Therefore you can only cast to a few of them for now. The available object types for 0.4.0 are Human, Player, Zone, and District. For all other object types you'll only be able to access variables available to all `objects`_.
+.. important:: As of release 0.5.0 not all object types have been bound to lua yet due to time constraints. Therefore you can only cast to a few of them for now. The available object types for 0.5.0 are Human, Player, Zone, and District. For all other object types you'll only be able to access variables available to all `objects`_.
 
 
 What next
