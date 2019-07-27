@@ -11,17 +11,19 @@ Here you'll find all the info you need to start writing lua scripts for RFGR. Wh
 
 Calling lua scripts
 ========================================================
-Currently calling lua scripts is as simple as placing a .lua file in your Scripts folder, ``Red Faction Guerrilla Re-MARS-tered\RFGR Script Loader\Scripts`` and running it through the built in script editor, or script select menu. You might need to hit the refresh button if the script was created externally after RSL was started. 
+Currently calling lua scripts is as simple as placing a .lua file in your Scripts folder, ``Red Faction Guerrilla Re-MARS-tered\RSL\Scripts`` and running it through the built in script editor, or script select menu. You might need to hit the refresh button if the script was created externally after RSL was started. 
 
 You can also open the built-in script editor after loading RSL and save/load/create scripts right from the game. It's good for quick edits and testing, but I'd still recommend using an external editor for major editing.
 
 A later release will feature more advanced methods for loading and running scripts. Likely having each script, set of scripts, or mod, be it's own package with information like version, and dependent packages.
 
+.. note:: While the RSL includes a built in script editor with some useful features like syntax highlighting and error highlighting, it's still recommended to use a external editor for large amount of editing since they can offer more features than the internal one does.
+
 Core library
 =========================================================
-The core library, in ``Red Faction Guerrilla Re-MARS-tered\RFGR Script Loader\Core``, includes useful functions, and types. It's loaded when RSL is started. You generally shouldn't distribute edits to this with a mod as it's meant to be a common library that all users have. You should however take a look at it. There are many useful values defined in the core library which are referenced in the docs.
+The core library, in ``Red Faction Guerrilla Re-MARS-tered\RSL\Core``, includes useful functions, and types. It's loaded when RSL is started. You generally shouldn't distribute edits to this with a mod as it's meant to be a common library that all users have. You should however take a look at it. There are many useful values defined in the core library which are referenced in the docs.
 
-One example of this is ObjectTypes.lua, which defines the table ``rfg.ObjectTypes``. This table has all object types (which will be discussed more in the next section), and their corresponding integer values, which can be used to sort objects by type. 
+One example of this is ObjectTypes.lua, which defines the table `rfg.ObjectTypes`_. This table has all object types (which will be discussed more in the next section), and their corresponding integer values, which can be used to sort objects by type. 
 
 Objects
 =========================================================
@@ -31,62 +33,49 @@ Since objects are so pervasive, being able to access them is key to interacting 
 
 Accessing objects
 ---------------------------------------------------------
-There are several ways to access objects. The first way to is use ``rfg.GetObject``. It takes a string, which is the name of the object you're looking for. This isn't the most reliable way of finding objects, as a large percentage of them are nameless. Still, it can be useful for easily finding known objects like Samanya, or specific map districts. It can be used like so:
-
-.. code-block:: lua
-
-    Sam = rfg.GetObject("Samanya") -- Get samanya's object
-    rsl.Log(Sam.Position:GetDataString()) -- Log Sams x,y,z position
-
-    --[[ Currently Sam is an Object type. To access variables 
-    specific to Humans such as Human.StealthPercent you'll need
-    to cast her variable to a human type. This can be done like so...--]] 
-
-    SamAsHuman = Sam:CastToHuman()
-    rsl.Log(tostring(SamAsHuman.StealthPercent)) -- Prove that it worked by accessing a human specific variable
-
-    -- Alternatively, you can reuse the existing variable
-    Sam = Sam:CastToHuman()
-    rsl.Log(tostring(Sam.StealthPercent))
-
-Note that if you tried accessing a human specific variable (or other derived types variable) before casting to that object type you should experience an error when running the script. As shown in this next example:
-
-.. code-block:: lua
-
-    Sam = rfg.GetObject("Samanya") -- Get samanya's objects
-    rsl.Log(tostring(Sam.StealthPercent)) 
-    -- Bad! This will cause an error as you're trying to access a Human variable before casting Sam (an object type) to a Human type
-
-This applies to accessing objects no matter which method you use to access them.
-
-You can also find objects with their handle via ``rfg.GetObjectByHandle``, which works in the same way, but instead takes an unsigned integer argument. You can find object handles in many types. For example, ``Human.ShieldHandle`` is the object handle of that humans shield if they possess one.
-
-.. important:: As of release 0.4.0 not all object types have been bound to lua yet due to time constraints. Therefore you can only cast to a few of them for now. The available object types for 0.4.0 are Human, Player, Zone, and District. For all other object types you'll only be able to access variables available to all `objects`_.
-
-
-The next way to access objects is by iterating through the world object list. This is a list of all objects in the game world. The object list can be found in the rfg world table. This method is useful for when you're looking for an unnamed object, or if you wish to change all objects of a certain type, like vehicles for example. You can access the world table directly through ``rfg.ActiveWorld`` or create your own variable to reference it with ``your_var = rfg.GetWorld()``. 
-
-From here you can use a loop to run through the object list, object by object, and perform your changes. Here's an example that loops through the object list, and counts the number of humans in the list.
+There are several ways to access objects. The first way to is use `rfg.GetObject`_. It takes a string or a number, which is the name or handle of the object you're looking for, respectively. Using this with a name isn't the most reliable way of finding objects, since most of them don't have names. But, passing a handle to it can be quite useful since many objects store handles to other objects. For example, ``Human.ShieldHandle`` is the object handle of that humans shield if they possess one. Another way of accessing objects is by looping through the world object list, like so:
 
 .. code-block:: lua
 
     HumanCount = 0
-    for i=0, rfg.ActiveWorld.AllObjects:Size(), 1 do
-        CurrentObject = rfg.ActiveWorld.AllObjects[i] -- Make a reference variable to the current object for convenience.
-        if CurrentObject.Type == rfg.ObjectTypes.Human then -- Check if current objects type matches the value for Humans
+    for i=0, rfg.ActiveWorld.AllObjects:Size(), 1 do --Loop through the global object list
+        CurrentObject = rfg.ActiveWorld.AllObjects[i] --Make a reference variable to the current object for convenience.
+        if CurrentObject.Type == rfg.ObjectTypes.Human then --Check if current object is a human object
             HumanCount = HumanCount + 1
         end
     end
 
-    rsl.Log("HumanCount: " .. tostring(HumanCount))
+    rsl.Log("HumanCount: {}\n", HumanCount)
 
-Note that while lua tables use 1 based indexing, the rfg object list uses 0 based indexing. This is a side effect of c++ using 0 based indexing, but, this may be changed in a future update to avoid inconsistency with existing lua standards.
+.. note:: While lua tables use 1 based indexing, the rfg object list uses 0 based indexing. This is a side effect of c++ using 0 based indexing, but, this may be changed in a future update to avoid inconsistency with existing lua standards.
+
+Note that if you tried accessing a human specific variable (or other derived types variable) before casting to that object type you should experience an error when running the script. You can use functions like ``Object:AsHuman()`` to cast the type to a human type, or the equivalent for the object type you're dealing with. The example below loops through the global object list, finds human objects, then casts the object to a human object and accesses ``HitPoints``, which is a variable that humans have, but other objects dont.
+
+.. code-block:: lua
+
+    for i=0, rfg.ActiveWorld.AllObjects:Size(), 1 do --Loop through the global object list
+        CurrentObject = rfg.ActiveWorld.AllObjects[i] --Make a reference variable to the current object for convenience.
+        if CurrentObject.Type == rfg.ObjectTypes.Human then --Check if current object is a human object
+            if CurrentObject.AllIndex ~= rfg.ActivePlayer.AllIndex then --Make sure this human object isn't the player
+                ObjectAsHuman = CurrentObject:AsHuman()
+                ObjectAsHuman.HitPoints = 0 --Kill this human instance by setting it's HitPoints to 0
+            end
+        end
+    end
+
+.. important:: As of release 0.4.0 not all object types have been bound to lua yet due to time constraints. Therefore you can only cast to a few of them for now. The available object types for 0.4.0 are Human, Player, Zone, and District. For all other object types you'll only be able to access variables available to all `objects`_.
+
 
 What next
 =====================================================================
-There are many other functions, types, and values available to scripts. Too many to list here. To see a list of them and more details you should view the `API`_ page. For more usage examples you should read the rest of the guides, and look through the `examples`_ provided. If you'd like to contribute the the docs you should read `contributing`_.
+There are many other functions, types, and values available to scripts. Too many to list here. To see a list of them and more details you should view the `API`_ page. For more usage examples you should read the rest of the `guides`_, and look through the `examples`_ provided. You should also look through the `useful values`_ page for info on some useful preset values like ``rfg.ActivePlayer`` and ``rfg.PhysicsSolver``. If you'd like to contribute the the docs you should read `contributing`_.
+
 
 .. _`API`: ../API.html
 .. _`contributing`: ../../Contributing.html
 .. _`examples`: ../Examples.html
 .. _`objects`: ../API/rfg/Types/Object.html
+.. _`rfg.ObjectTypes`: ../API/rfg/Types/ObjectTypes.html
+.. _`rfg.GetObject`: ../API/rfg/Functions/GetObject.html
+.. _`useful values`: ../API/rfg/UsefulValues.html
+.. _`guides`: ../Guides.html
