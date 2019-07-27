@@ -17,9 +17,15 @@ Changes
 - Syntax highlighting and type tooltip info support in the script editor. Loads type definitions from ``/Settings/LanguageConfig.json``. It has some limitations but will still be useful. I've only added a few types to save time. I'd greatly appreciate if anyone could go through the documentation and add entries for each type and function to this file which I'd include in the next release.
 - Added information bar at the top of the script editor that shows info such as line and column number, and what typing mode you're in (insert, caps lock, etc).
 - When running scripts through the editor it will now check for syntax errors before running your script, then run it if none are detected. 
-- The script editor is now more performant with larger scripts. The colorization code was made more efficient.
+- The script editor is now more performant with larger scripts. The colorization code was made more performant.
+- Added a basic file browser sidebar to the script editor.
 - Moved explosion spawner to it's own menu. Now lets you copy values from the games pre-existing explosions (rpg, mine, tank shell, etc), and has a list of the games visual effects and their IDs so you no longer need to guess them.
-- Changed the lua console shortcut to F4 since the old shortcut stopped the use of tilde in the script editor and is a pain to access on some keyboards.
+- Changed the lua console shortcut to F4 since the old shortcut stopped the use of tilde in the script editor and is a pain to access on some keyboards. See the welcome window for an updated keybinds list.
+- The overlay now supports tab and window docking
+- Added experimental autoloader dll. Just place dinput8.dll in your rfgr folder (contains rfg.exe) and install the RSL normally. This will automatically load the RSL when starting the game, avoiding the need for the injector. The only change is that you'd need to move dinput8.dll into another folder before starting the game to play MP. The injector is still included until the autoloader is more stable.
+- Added support for `autorun scripts`_.
+- Added an object introspection menu. To use it, aim at an object and press numpad 4. This will lock that object. Then go to the menu in the overlay and you'll see some basic info about the object like it's type, it's object list index, and it's handle.
+- Added `lua overrides`_ for internal rfg lua scripts.
 
 Fixes
 -------------------------------------------------------
@@ -29,3 +35,5 @@ Fixes
 - Updated the script editor to fix a bug causing improper cursor placement.
 
 .. _`contributing guide`: ./Contributing.html
+.. _`autorun scripts`: ./Scripting/Guides/Autorun.html
+.. _`lua overrides`: ./Scripting/Guides/Overrides.html
