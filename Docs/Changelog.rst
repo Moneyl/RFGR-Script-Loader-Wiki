@@ -3,7 +3,7 @@ Changelog
 
 This page contains a list of changes, fixes, and additions made from version 0.4.0 onwards. Changelogs for older version can be found on the `github releases page <https://github.com/Moneyl/RFGR-Script-Loader-Wiki/releases>`_. More details about any changes to scripting or new functions and types can be found in the scripting section of the docs.
 
-v0.4.0
+v0.5.0
 ========================================================
 Changes
 -------------------------------------------------------
