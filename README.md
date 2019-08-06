@@ -1,3 +1,5 @@
+MOVED HERE: https://github.com/rsl-dev/RSL
+
 ![GitHub release](https://img.shields.io/github/release-pre/moneyl/RFGR-Script-Loader-Wiki.svg)
 
 # RFGR Script Loader Wiki
